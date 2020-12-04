@@ -1,0 +1,84 @@
+- id: unaware
+  en:
+    name: Unaware
+    description: >-
+      The first level of the maturity model; defined in comparative sense to
+      other levels; denotes a lack of intentional or systemic approach to
+      fostering D&I standards within an organization, and absence of D&I
+      elements in the organization's management and work-processes. The
+      "unaware" maturity level could also be called "we don't know what we don't
+      know." At this level, a person or group hasn't yet started—even
+      unintentionally—on their path towards maturity in that area.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: adhoc
+  en:
+    name: Ad-hoc
+    description: >-
+      The second level of the maturity model; defined in comparative sense to
+      other levels; denotes a practice in organizations, teams or movements
+      whereby D&I standards are introduced on the basis of immediate or
+      expressed demand (e.g. compliance with  existing regulations and laws).
+      This level could be understood as an organization or a group having a
+      nascent D&I strategy.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: developing
+  en:
+    name: Developing
+    description: >-
+      The third level of the maturity model; defined in comparative sense to
+      other levels; denotes a practice (types of behaviors/attitudes) in
+      organizations, teams or movements that have some elements of D&I practice
+      developed or deployed with a sense of awareness and intentionality,
+      although not fully integrated throughout the work processes.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: mastering
+  en:
+    name: Mastering
+    description: >-
+      The fourth level of the maturity model; defined in comparative sense to
+      other levels; denotes a practice (types of behaviors/attitudes) in
+      organizations, teams or movements that integrate a thoughtful, intentional
+      and systemic strategy around various D&I considerations.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: leading
+  en:
+    name: Leading
+    description: >-
+      The fifth level of the maturity model; defined in comparative sense to
+      other levels; denotes a practice (types of behaviors/attitudes) in
+      organizations, teams or movements that integrate a thoughtful, intentional
+      and systemic strategy around various D&I considerations. The
+      organizations, teams or movements in this level of maturity likely
+      seriously approach and consider investments in D&I as one of the
+      organizational priorities and can also serve as multipliers in promoting
+      an advanced D&I practice among their stakeholders and in their
+      communities. The defining factor of the "leading" category is that other
+      organisations recognize this organization as an example to follow, so
+      there is also an element of recognition and intentional aim to be a role
+      model to others.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.

@@ -1,0 +1,60 @@
+.progressBox {
+  &-bar {
+    height: 24px;
+    border-radius: 12px;
+    border: 2px solid white;
+    overflow: hidden;
+    position: relative;
+
+    &-progress {
+      height: 24px;
+      width: 100%;
+      position: relative;
+      clip-path: polygon(0 0, 55% 0, 55% 100%, 0% 100%);
+      background: linear-gradient(
+        270deg,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 0.25) 100%
+      );
+      transition: all 0.2s ease-in-out;
+    }
+
+    &-progressRequired {
+      position: absolute;
+      top: 1px;
+      bottom: 0;
+      height: 23px;
+      width: 3px;
+    }
+  }
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 16px;
+
+    @media (max-width: 768px) {
+      justify-content: unset;
+      flex-wrap: wrap;
+      padding: 8px;
+      font-size: 12px;
+
+      &-total {
+        flex-basis: 50%;
+      }
+
+      &-required {
+        flex-basis: 50%;
+        text-align: right;
+      }
+
+      &-info {
+        flex-basis: 100%;
+        text-align: center;
+      }
+    }
+  }
+}

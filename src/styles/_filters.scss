@@ -1,0 +1,41 @@
+.filters {
+  max-width: 873px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+
+  &-header {
+    display: flex;
+    align-items: center;
+
+    &-line {
+      height: 1px;
+      background: #ffffff;
+      flex: 1;
+    }
+  }
+
+  &-content {
+    padding: 16px;
+    border-bottom: 1px solid #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &.is--active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .btn-toggle {
+      margin: 0 3px;
+      margin-bottom: 12px;
+
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+  }
+}

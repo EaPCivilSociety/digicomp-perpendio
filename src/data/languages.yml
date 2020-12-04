@@ -1,0 +1,6 @@
+- id: 'en'
+  description: 'english'
+- id: 'es'
+  description: 'español'
+- id: 'fr'
+  description: 'français'

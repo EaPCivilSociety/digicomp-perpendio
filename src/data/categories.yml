@@ -1,0 +1,94 @@
+- id: culture
+  en:
+    name: Culture
+    description: >-
+      Do we enable a diverse set of populations to thrive by prioritising
+      Diversity & Inclusion in our values and decision-making processes, using
+      inclusive language and communication processes, and ensuring there is
+      sufficient care, celebration and healthy work-life balance?
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: infrastructure
+  en:
+    name: Infrastructure
+    description: >-
+      Is our physical and digital infrastructure designed to ensure that its
+      spaces, technology, facilities are accessible, accounts for the needs and
+      limitations of diverse sets of populations, and enables each of them to
+      thrive?
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: leadership
+  en:
+    name: Leadership
+    description: >-
+      Is our leadership (including management and Board) representative of the
+      diverse sets of populations we work with? Do they understand and care
+      about Diversity & Inclusion, and model it in their leadership?
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: people-management
+  en:
+    name: People Management
+    description: >-
+      Do our Human Resource processes including recruitment, onboarding, work
+      and leave policies, compensation and benefits, performance management, and
+      learning and development prioritise Diversity & Inclusion?
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: learning-accountability
+  en:
+    name: Learning & Accountability
+    description: >-
+      Do we have mechanisms in place to track and measure our Diversity &
+      Inclusion goals, address grievances fairly, and ensure we learn from our
+      mistakes?
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: project-program
+  en:
+    name: 'Project & Program Design, Planning & Strategy'
+    description: >-
+      Are our projects and programs designed to be inclusive of diverse sets of
+      populations in the ways that teams are structured, goals and objectives
+      are planned, success is defined and measured, and in the stories and
+      perspectives that get considered?
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: external-relationships
+  en:
+    name: External Relationships
+    description: >-
+      Do we also account for Diversity & Inclusion within our external
+      relationships including our external partners, stakeholders and
+      constituents, as well as our funders and clients?
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.

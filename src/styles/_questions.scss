@@ -1,0 +1,50 @@
+.questions {
+  max-width: 873px;
+  margin: 0 auto;
+
+  &-header {
+    color: #ffffff;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .btn {
+      flex-shrink: 0;
+    }
+
+    &-content {
+      padding: 0 24px;
+      flex: 1;
+    }
+
+    &-card-title {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 4px;
+    }
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      padding: 0 12px;
+
+      & div:first-of-type {
+        flex-basis: 50%;
+        justify-content: flex-start;
+      }
+      &-content {
+        flex-basis: 100%;
+        order: 3;
+        padding: 0;
+        margin-top: 24px;
+      }
+      & div:last-of-type {
+        flex-basis: 50%;
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}

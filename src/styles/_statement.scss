@@ -1,0 +1,201 @@
+.question {
+  &-card {
+    padding: 16px 8px 16px 8px;
+    margin-bottom: 24px;
+
+    @media (min-width: 768px) {
+      padding: 48px 64px 32px 64px;
+    }
+
+    &-content {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+
+      p {
+        font-family: 'Crimson Text', serif;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 135%;
+        color: #333333;
+        &:before,
+        &:after {
+          content: open-quote;
+        }
+
+        &:after {
+          content: close-quote;
+        }
+      }
+
+      @media (min-width: 768px) {
+        min-height: 100px;
+        margin-bottom: 24px;
+
+        p {
+          font-size: 24px;
+          line-height: 32px;
+        }
+      }
+    }
+
+    &-label {
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.01em;
+      color: #666666;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    &-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 32px;
+
+      .separator {
+        height: 48px;
+        width: 1px;
+        margin: 0 8px;
+
+        @media (min-width: 768px) {
+          background: #888888;
+          margin: 0 12px;
+        }
+      }
+
+      .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 54px;
+        border-radius: 4px;
+        padding: 8px;
+        font-size: 14px;
+        line-height: 1.25;
+        margin: 0 2px;
+
+        @media (min-width: 768px) {
+          font-size: 18px;
+          min-width: 130px;
+          margin: 0 4px;
+          padding: 8px 16px;
+        }
+
+        &.btn-1 {
+          background: #fff3c0;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+          &[disabled].active,
+          &.disabled.active,
+          &:disabled.active {
+            background: #fff3c0;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+          }
+        }
+
+        &.btn-2 {
+          background: #d5fbd4;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+          &:hover {
+            background: darken(#d5fbd4, 10%) !important;
+          }
+
+          &[disabled].active,
+          &.disabled.active,
+          &:disabled.active {
+            background: #d5fbd4;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+          }
+        }
+
+        &.btn-3 {
+          background: #a6f4a5;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+          &:hover {
+            background: darken(#a6f4a5, 10%) !important;
+          }
+
+          &[disabled].active,
+          &.disabled.active,
+          &:disabled.active {
+            background: #a6f4a5;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+          }
+        }
+
+        &.btn-4 {
+          background: #ddebff;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+          &:hover {
+            background: darken(#ddebff, 10%) !important;
+          }
+
+          &[disabled].active,
+          &.disabled.active,
+          &:disabled.active {
+            background: #ddebff;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+          }
+        }
+
+        &[disabled],
+        &.disabled,
+        &:disabled {
+          opacity: 1;
+          cursor: default;
+
+          background: #f3f3f3;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+
+    &-tags {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 8px;
+
+      @media (min-width: 768px) {
+        margin-bottom: 0;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+
+        @media (min-width: 768px) {
+          font-size: 14px;
+        }
+
+        &::after {
+          content: '/';
+          font-size: 24px;
+          margin: 0 8px;
+          color: #cccccc;
+        }
+
+        &:last-child {
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

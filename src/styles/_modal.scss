@@ -1,0 +1,90 @@
+.modal {
+  &-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+    &.is--active {
+      display: flex;
+    }
+  }
+
+  &-card {
+    padding: 24px 8px;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+      padding: 64px;
+
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    &-form {
+      width: 100%;
+    }
+  }
+
+  &-btn-done {
+    justify-content: center;
+    align-self: flex-start;
+    width: auto;
+    padding-left: 64px;
+    padding-right: 64px;
+    margin: 0 auto;
+    margin-top: 8px;
+
+    @media (max-width: 768px) {
+      margin: 0 auto;
+      padding-left: 32px;
+      padding-right: 32px;
+      align-self: flex-start;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+
+  &-input-group {
+    .btn-copy-to-clipboard {
+      height: 42px;
+      font-size: 14px;
+      border: 1px solid #000;
+      padding-left: 12px;
+      padding-right: 12px;
+
+      &:hover {
+        background: none;
+      }
+
+      svg {
+        stroke: #000;
+        max-width: 20px;
+        max-height: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    &-input-group {
+      margin: 0;
+    }
+  }
+
+  &-input {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px 0 0 8px !important;
+  }
+}

@@ -1,0 +1,60 @@
+- id: General
+  en:
+    name: General
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: 'Ability, physical & mental health'
+  en:
+    name: 'Ability, physical & mental health'
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: Gender and sexuality
+  en:
+    name: Gender and sexuality
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: Religion
+  en:
+    name: Religion
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: Socio-economic status
+  en:
+    name: Socio-economic status
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: 'Race, caste, and ethnicites'
+  en:
+    name: 'Race, caste, and ethnicites'
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.

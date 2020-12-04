@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-config-prettier",
+    "tslint-etc"
+  ],
+  "linterOptions": {
+    "exclude": [".env*"]
+  },
+  "rules": {
+    "interface-name": [true, "never-prefix"],
+    "jsx-no-lambda": false,
+    "object-literal-sort-keys": false,
+    "no-arg": true,
+    "no-bitwise": false,
+    "no-conditional-assignment": true,
+    "no-consecutive-blank-lines": false,
+    "no-console": {
+      "severity": "warning",
+      "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+    },
+    "no-submodule-imports": false,
+    "no-unused-declaration": true,
+    "ordered-imports": false,
+    "no-implicit-dependencies": false,
+    "jsx-boolean-value": false,
+    "member-ordering": false,
+    "no-empty-interface": false,
+    "linebreak-style": [true, "LF"],
+    "array-type": false
+  },
+  "jsRules": {
+    "object-literal-sort-keys": false
+  }
+}

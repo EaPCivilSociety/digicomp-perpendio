@@ -1,13 +1,15 @@
 import { useIntl } from 'react-intl';
 
 import { en } from './en';
-import { hr } from './hr';
+import { fr } from './fr';
+import { es } from './es';
 
-export const translations = { en, hr };
+export const translations = { en, fr, es };
 
 export const languages = [
   { code: 'en', name: 'English' },
-  { code: 'hr', name: 'Croatian' },
+  { code: 'fr', name: 'French' },
+  { code: 'es', name: 'Spanish' },
 ];
 
 export const useTranslations = () => {

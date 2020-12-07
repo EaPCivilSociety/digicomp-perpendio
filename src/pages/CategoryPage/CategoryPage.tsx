@@ -12,10 +12,11 @@ import GoalButtonToggle from 'components/Goals/GoalButtonToggle';
 import GoalButton from 'components/Goals/GoalButton';
 import { maturityLevels } from 'data';
 import { getSelectedLanguage } from 'store/languages';
-import { StarIcon } from 'images';
+import { StarIcon, File } from 'images';
 import SaveModal from 'components/SaveModal/SaveModal';
 import { useToggle } from 'hooks/useToggle';
 import { getStatements } from 'store/statements';
+import ExportModal from 'components/ExportPdf/ExportModal';
 
 const Categorypage = () => {
   const { t } = useTranslations();
@@ -28,6 +29,7 @@ const Categorypage = () => {
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
 
   const [modalVisbility, toggleModal] = useToggle(false);
+  const [exportModalVisibility, toggleExportModal] = useToggle(false);
 
   const { title, description } = useMemo(() => {
     if (showResults) {
@@ -49,17 +51,31 @@ const Categorypage = () => {
         <div className="category-hero">
           <h1>{t('categoriesStateOfDiversity')}</h1>
 
-          <button
-            className="btn btn-sm btn-primary category-hero-btn"
-            onClick={toggleModal}
-          >
-            <img
-              src={StarIcon}
-              alt=""
-              style={{ position: 'relative', top: -1 }}
-            />
-            <span className="ml-2">{t('categoriesSave')}</span>
-          </button>
+          <div>
+            <button
+              className="btn btn-sm btn-primary category-hero-btn mr-2"
+              onClick={toggleExportModal}
+            >
+              <img
+                src={File}
+                alt=""
+                style={{ position: 'relative', top: -1 }}
+              />
+              <span className="ml-2">{t('categoriesExport')}</span>
+            </button>
+
+            <button
+              className="btn btn-sm btn-primary category-hero-btn"
+              onClick={toggleModal}
+            >
+              <img
+                src={StarIcon}
+                alt=""
+                style={{ position: 'relative', top: -1 }}
+              />
+              <span className="ml-2">{t('categoriesSave')}</span>
+            </button>
+          </div>
         </div>
       )}
       {showResults && (
@@ -143,6 +159,7 @@ const Categorypage = () => {
       <Categories showOnlyUnanswered={true} />
 
       <SaveModal open={modalVisbility} setOpen={toggleModal} />
+      <ExportModal open={exportModalVisibility} setOpen={toggleExportModal} />
     </div>
   );
 };

@@ -2,11 +2,13 @@
 import React, { memo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import classNames from 'classnames';
+import { AnimatePresence, motion } from 'framer-motion';
 
 import { DEFAULT_LANGUAGE, getSelectedLanguage } from 'store/languages';
 import { Answer, Statement } from 'store/statements';
 import { Result, setResult } from 'store/results';
 import { useTranslations } from 'i18n';
+import { FADE_VARIANTS } from 'const';
 
 type StatementProps = {
   statement?: Statement;
@@ -30,12 +32,27 @@ const StatementCmp = ({ statement, answered }: StatementProps) => {
   };
 
   return (
-    <div className="card question-card">
+    <motion.div
+      className="card question-card"
+      layout
+      variants={FADE_VARIANTS}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
       <div className="question-card-content">
-        <p>
-          {statement?.statement[language.id] ||
-            statement?.statement[DEFAULT_LANGUAGE]}
-        </p>
+        <AnimatePresence exitBeforeEnter>
+          <motion.p
+            key={statement?.statementId}
+            variants={FADE_VARIANTS}
+            initial="initial"
+            animate="animate"
+            exit="exit"
+          >
+            {statement?.statement[language.id] ||
+              statement?.statement[DEFAULT_LANGUAGE]}
+          </motion.p>
+        </AnimatePresence>
       </div>
       <div className="question-card-label">
         {t('statementsHowMuchDoesThis')}
@@ -85,7 +102,7 @@ const StatementCmp = ({ statement, answered }: StatementProps) => {
             <li key={index}>{tag}</li>
           ))}
       </ul>
-    </div>
+    </motion.div>
   );
 };
 

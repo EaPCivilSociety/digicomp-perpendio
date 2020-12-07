@@ -17,6 +17,7 @@ export const en = {
     'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.',
   categoriesStateOfDiversity: 'State of Our Diversity',
   categoriesSave: 'Save',
+  categoriesExport: 'Export PDF',
 
   categoryInProgress: 'In progress',
   categorySetAsGoal: 'Set as goal',
@@ -25,6 +26,7 @@ export const en = {
   categoryBack: 'Back',
   categoryClickOnMaturityLevel:
     'Click on a maturity level to see finished and unanswered statements',
+  categoryDoNotApply: 'do not apply',
 
   notFound: 'Not Found',
 
@@ -91,4 +93,32 @@ export const en = {
     'If you think current progress might be useful, consider saving it before restarting the assessment.',
   resetModalCancel: 'No, take me back',
   resetModalConfirm: 'Yes, delete my current progress.',
+
+  exportModalExportPdf: 'Export PDF',
+  exportModalDetails:
+    'You can optionally add this information to customize your print. It will not be stored on the website.',
+  exportModalNameCompiler: 'Name(s) of compiler(s)',
+  exportModalNameOrganization: 'Name of organisation',
+  exportModalLoading: 'Generating...',
+  exportModalDownload: 'Download PDF',
+
+  /**
+   * PDF
+   */
+  // Cover
+  pdfTitle: 'Diversity and Inclusion Self-assessment',
+  pdfCompiledBy: 'Compiled by',
+  pdfOnBehalfOf: 'On behalf of',
+  pdfAssessmentCode: 'Assessment code',
+  // Introduction
+  pdfIntroduction: 'Introduction',
+  // Categories and statements
+  pdfCategoriesAndStatements: 'Categories and Statements',
+  // About
+  pdfAboutSpecialAppreciation1:
+    'We also wish to extend special appreciation to',
+  pdfAboutSpecialAppreciation2: ', whose work on the',
+  pdfAboutSpecialAppreciationLink2: 'Responsible Data Maturity Model',
+  pdfAboutSpecialAppreciation3:
+    'guided our reasoning both in structure and in intent.',
 };

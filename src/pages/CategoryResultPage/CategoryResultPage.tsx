@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useHistory, useParams } from 'react-router-dom';
 import _ from 'lodash';
+import { AnimatePresence, AnimateSharedLayout, motion } from 'framer-motion';
 
 import CategoryAnswered from 'components/Categories/CategoryAnswered';
 import Filters from 'components/Categories/Filters';
@@ -18,6 +19,7 @@ import { getCategoryById } from 'store/categories';
 import { DEFAULT_LANGUAGE, getSelectedLanguage } from 'store/languages';
 import { getResultsByCategory } from 'store/results';
 import { useTranslations } from 'i18n';
+import { FADE_VARIANTS } from 'const';
 
 const CategoryResultPage = () => {
   const history = useHistory();
@@ -130,41 +132,68 @@ const CategoryResultPage = () => {
       {resultsVisible && (
         <>
           <div className="category-results-content">
-            {filteredUnasweredStatements.length > 0 && (
-              <header className="content-header text-md-center">
-                <h3>{`Unanswered statements${
-                  selectedMaturityStageName
-                    ? ` in ${selectedMaturityStageName}`
-                    : ''
-                }`}</h3>
-              </header>
-            )}
+            <AnimatePresence>
+              {filteredUnasweredStatements.length > 0 && (
+                <motion.header
+                  className="content-header text-md-center"
+                  layout
+                  variants={FADE_VARIANTS}
+                  initial="initial"
+                  animate="animate"
+                  exit="exit"
+                >
+                  <h3>{`Unanswered statements${
+                    selectedMaturityStageName
+                      ? ` in ${selectedMaturityStageName}`
+                      : ''
+                  }`}</h3>
+                </motion.header>
+              )}
+            </AnimatePresence>
 
-            {filteredUnasweredStatements.map((statement) => (
-              <StatementCmp key={statement.statementId} statement={statement} />
-            ))}
+            <AnimateSharedLayout>
+              <AnimatePresence>
+                {filteredUnasweredStatements.map((statement) => (
+                  <StatementCmp
+                    key={statement.statementId}
+                    statement={statement}
+                  />
+                ))}
+              </AnimatePresence>
 
-            {filteredAnsweredStatements.length > 0 && (
-              <header className="content-header text-md-center">
-                <h3>{`Finished statements${
-                  selectedMaturityStageName
-                    ? ` in ${selectedMaturityStageName}`
-                    : ''
-                }`}</h3>
-              </header>
-            )}
+              <AnimatePresence>
+                {filteredAnsweredStatements.length > 0 && (
+                  <motion.header
+                    className="content-header text-md-center"
+                    layout
+                    variants={FADE_VARIANTS}
+                    initial="initial"
+                    animate="animate"
+                    exit="exit"
+                  >
+                    <h3>{`Finished statements${
+                      selectedMaturityStageName
+                        ? ` in ${selectedMaturityStageName}`
+                        : ''
+                    }`}</h3>
+                  </motion.header>
+                )}
+              </AnimatePresence>
 
-            {filteredAnsweredStatements.map((statement) => (
-              <StatementCmp
-                key={statement.statementId}
-                statement={statement}
-                answered={
-                  results.filter(
-                    (r) => r.statementId === statement.statementId
-                  )[0]?.answerId
-                }
-              />
-            ))}
+              <AnimatePresence>
+                {filteredAnsweredStatements.map((statement) => (
+                  <StatementCmp
+                    key={statement.statementId}
+                    statement={statement}
+                    answered={
+                      results.filter(
+                        (r) => r.statementId === statement.statementId
+                      )[0]?.answerId
+                    }
+                  />
+                ))}
+              </AnimatePresence>
+            </AnimateSharedLayout>
           </div>
         </>
       )}

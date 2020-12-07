@@ -190,7 +190,9 @@ const CategoryAnswered = ({
                 </div>
                 <label>{t('categoryAnswered')}</label>
               </div>
-              <div className="answer-footer">{`${doNotApply} do not apply`}</div>
+              <div className="answer-footer">{`${doNotApply} ${t(
+                'categoryDoNotApply'
+              )}`}</div>
             </div>
           );
         })}

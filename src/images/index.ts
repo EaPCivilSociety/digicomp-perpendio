@@ -15,6 +15,7 @@ import InfoDarkIcon from './infoDark.svg';
 import GoalLightIcon from './goalLight.svg';
 import GoalActiveIcon from './goalActive.svg';
 import StarIcon from './star.svg';
+import File from './file.svg';
 
 export {
   Logo,
@@ -34,4 +35,5 @@ export {
   GoalLightIcon,
   GoalActiveIcon,
   StarIcon,
+  File,
 };

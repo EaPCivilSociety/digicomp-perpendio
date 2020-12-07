@@ -22,9 +22,15 @@ import './styles/bootstrap.min.css';
 import './App.scss';
 import MainLayout from './MainLayout';
 
+const TRANSLATION_FALLBACK_LANGUAGE = 'en';
+
 function App() {
   const dispatch = useDispatch();
   const selectedLanguage = useSelector(getSelectedLanguage);
+
+  const defaultTranslations = translations[TRANSLATION_FALLBACK_LANGUAGE];
+  // @ts-ignore
+  const selectedLanguageTranslations = translations[selectedLanguage.id] as any;
 
   useEffect(() => {
     dispatch(setCategories(categories));
@@ -35,9 +41,8 @@ function App() {
   return (
     <IntlProvider
       locale={selectedLanguage.id}
-      // TODO: Luka fix this :)
       // @ts-ignore
-      messages={translations[selectedLanguage.id] as any}
+      messages={{ ...defaultTranslations, ...selectedLanguageTranslations }}
     >
       <MainLayout>
         <Switch>

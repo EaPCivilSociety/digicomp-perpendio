@@ -10,11 +10,27 @@
       know." At this level, a person or group hasn't yet started—even
       unintentionally—on their path towards maturity in that area.
   fr:
-    name: No content available yet.
-    description: No content available yet.
+    name: Inconnu
+    description: >-
+      Le premier niveau du modèle de maturité, défini dans un sens comparatif
+      par rapport aux autres niveaux, dénote un manque d'approche intentionnelle
+      ou systémique pour promouvoir les normes de D&I au sein d'une
+      organisation, et l'absence d'éléments de D&I dans la gestion et les
+      processus de travail de l'organisation. Le niveau de maturité
+      "inconscient" pourrait également être appelé "nous ne savons pas ce que
+      nous ne savons pas". À ce niveau, une personne ou un groupe n'a pas encore
+      entamé - même involontairement - son cheminement vers la maturité dans ce
+      domaine.
   es:
-    name: No content available yet.
-    description: No content available yet.
+    name: Sin conocimiento
+    description: >-
+      El primer nivel del modelo de madurez, definido en sentido comparativo con
+      otros niveles, denota la falta de un enfoque intencional o sistémico para
+      fomentar las normas de D&I dentro de una organización, y la ausencia de
+      elementos de D&I en la gestión y los procesos de trabajo de la
+      organización. El nivel de madurez "inconsciente" también podría llamarse
+      "no sabemos lo que no sabemos". En este nivel, una persona o grupo aún no
+      ha iniciado -incluso sin querer- su camino hacia la madurez en esa área.
 - id: adhoc
   en:
     name: Ad-hoc
@@ -26,11 +42,24 @@
       This level could be understood as an organization or a group having a
       nascent D&I strategy.
   fr:
-    name: No content available yet.
-    description: No content available yet.
+    name: Ad-hoc
+    description: >-
+      Le deuxième niveau du modèle de maturité, défini dans un sens comparatif
+      par rapport aux autres niveaux, désigne une pratique dans les
+      organisations, les équipes ou les mouvements où les normes de D&I sont
+      introduites sur la base d'une demande immédiate ou exprimée (par exemple,
+      le respect des réglementations et des lois existantes). Ce niveau pourrait
+      être compris comme une organisation ou un groupe ayant une stratégie de
+      D&I naissante.
   es:
-    name: No content available yet.
-    description: No content available yet.
+    name: Ad-hoc
+    description: >-
+      El segundo nivel del modelo de madurez, definido en sentido comparativo
+      con otros niveles, denota una práctica en organizaciones, equipos o
+      movimientos en la que las normas de D&I se introducen sobre la base de una
+      demanda inmediata o expresa (por ejemplo, el cumplimiento de los
+      reglamentos y leyes vigentes). Este nivel podría entenderse como una
+      organización o un grupo que tiene una estrategia incipiente de D&I.
 - id: developing
   en:
     name: Developing
@@ -41,11 +70,23 @@
       developed or deployed with a sense of awareness and intentionality,
       although not fully integrated throughout the work processes.
   fr:
-    name: No content available yet.
-    description: No content available yet.
+    name: Développement
+    description: >-
+      Le troisième niveau du modèle de maturité, défini dans un sens comparatif
+      par rapport aux autres niveaux, désigne une pratique (types de
+      comportements/attitudes) dans des organisations, des équipes ou des
+      mouvements qui ont développé ou déployé certains éléments de la pratique
+      de D&I avec un sens de la conscience et de l'intentionnalité, bien qu'ils
+      ne soient pas totalement intégrés dans les processus de travail.
   es:
-    name: No content available yet.
-    description: No content available yet.
+    name: Desarrollando
+    description: >-
+      El tercer nivel del modelo de madurez, definido en sentido comparativo con
+      otros niveles, denota una práctica (tipos de comportamientos/actitudes) en
+      organizaciones, equipos o movimientos que tienen algunos elementos de la
+      práctica de D&I desarrollados o desplegados con un sentido de conciencia e
+      intencionalidad, aunque no totalmente integrados en los procesos de
+      trabajo.
 - id: mastering
   en:
     name: Mastering
@@ -55,11 +96,21 @@
       organizations, teams or movements that integrate a thoughtful, intentional
       and systemic strategy around various D&I considerations.
   fr:
-    name: No content available yet.
-    description: No content available yet.
+    name: Mastering
+    description: >-
+      Le quatrième niveau du modèle de maturité, défini dans un sens comparatif
+      par rapport aux autres niveaux, désigne une pratique (types de
+      comportements/attitudes) dans des organisations, des équipes ou des
+      mouvements qui intègrent une stratégie réfléchie, intentionnelle et
+      systémique autour de diverses considérations de D&I.
   es:
-    name: No content available yet.
-    description: No content available yet.
+    name: Dominio
+    description: >-
+      El cuarto nivel del modelo de madurez, definido en sentido comparativo con
+      otros niveles, denota una práctica (tipos de comportamientos/actitudes) en
+      organizaciones, equipos o movimientos que integran una estrategia
+      reflexiva, intencional y sistémica en torno a diversas consideraciones de
+      D&I.
 - id: leading
   en:
     name: Leading
@@ -77,8 +128,33 @@
       there is also an element of recognition and intentional aim to be a role
       model to others.
   fr:
-    name: No content available yet.
-    description: No content available yet.
+    name: Chef de file
+    description: >-
+      Le cinquième niveau du modèle de maturité, défini dans un sens comparatif
+      par rapport aux autres niveaux, désigne une pratique (types de
+      comportements/attitudes) dans les organisations, équipes ou mouvements qui
+      intègre une stratégie réfléchie, intentionnelle et systémique autour de
+      diverses considérations de D&I. Les organisations, équipes ou mouvements à
+      ce niveau de maturité s'approchent et considèrent probablement
+      sérieusement les investissements dans le D&I comme l'une des priorités
+      organisationnelles et peuvent également servir de multiplicateurs pour
+      promouvoir une pratique avancée de D&I auprès de leurs parties prenantes
+      et dans leurs communautés. Le facteur déterminant de la catégorie "leader"
+      est que les autres organisations reconnaissent cette organisation comme
+      exemple à suivre, il y a donc aussi un élément de reconnaissance et un
+      objectif intentionnel d'être un modèle pour les autres.
   es:
-    name: No content available yet.
-    description: No content available yet.
+    name: Dirigiendo
+    description: >-
+      El quinto nivel del modelo de madurez, definido en sentido comparativo con
+      otros niveles, denota una práctica (tipos de comportamientos/actitudes) en
+      organizaciones, equipos o movimientos que integran una estrategia
+      reflexiva, intencional y sistémica en torno a diversas consideraciones de
+      D&I. Es probable que las organizaciones, equipos o movimientos en este
+      nivel de madurez se aproximen seriamente y consideren las inversiones en
+      D&I como una de las prioridades de la organización y también pueden servir
+      de multiplicadores para promover una práctica avanzada de D&I entre sus
+      interesados y en sus comunidades. El factor que define la categoría de
+      "líder" es que otras organizaciones reconocen a esta organización como un
+      ejemplo a seguir, por lo que también existe un elemento de reconocimiento
+      y el objetivo intencional de ser un modelo a seguir para otros.

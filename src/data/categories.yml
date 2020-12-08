@@ -7,11 +7,22 @@
       inclusive language and communication processes, and ensuring there is
       sufficient care, celebration and healthy work-life balance?
   fr:
-    name: No content available yet.
-    description: No content available yet.
+    name: 'Culture '
+    description: >-
+      Permettons-nous à un ensemble diversifié de populations de prospérer en
+      donnant la priorité à la diversité et à l'inclusion dans nos valeurs et
+      nos processus décisionnels, en utilisant un langage et des processus de
+      communication inclusifs et en veillant à ce qu'il y ait suffisamment de
+      soins, de célébrations et d'équilibre sain entre vie professionnelle et
+      vie privée ?
   es:
-    name: No content available yet.
-    description: No content available yet.
+    name: 'Cultura '
+    description: >-
+      ¿Permitimos que un conjunto diverso de poblaciones prospere dando
+      prioridad a la Diversidad e Inclusión en nuestros valores y procesos de
+      toma de decisiones, utilizando un lenguaje y procesos de comunicación
+      inclusivos, y asegurando que haya suficiente atención, celebración y un
+      sano equilibrio entre el trabajo y la vida privada?
 - id: infrastructure
   en:
     name: Infrastructure
@@ -21,11 +32,19 @@
       limitations of diverse sets of populations, and enables each of them to
       thrive?
   fr:
-    name: No content available yet.
-    description: No content available yet.
+    name: Infrastructure
+    description: >-
+      Notre infrastructure physique et numérique est-elle conçue pour garantir
+      que ses espaces, sa technologie et ses installations sont accessibles,
+      tiennent compte des besoins et des limites de divers groupes de population
+      et permettent à chacun d'entre eux de s'épanouir ?
   es:
-    name: No content available yet.
-    description: No content available yet.
+    name: 'Infraestructura '
+    description: >-
+      ¿Está nuestra infraestructura física y digital diseñada para asegurar que
+      sus espacios, tecnología, instalaciones sean accesibles, que tenga en
+      cuenta las necesidades y limitaciones de los diversos grupos de población
+      y que permita a cada uno de ellos prosperar?
 - id: leadership
   en:
     name: Leadership
@@ -34,11 +53,19 @@
       diverse sets of populations we work with? Do they understand and care
       about Diversity & Inclusion, and model it in their leadership?
   fr:
-    name: No content available yet.
-    description: No content available yet.
+    name: Leadership
+    description: >-
+      Notre direction (y compris la direction et le conseil d'administration)
+      est-elle représentative des divers groupes de population avec lesquels
+      nous travaillons ? Comprennent-ils et se soucient-ils de la diversité et
+      de l'inclusion, et en font-ils un modèle dans leur direction ?
   es:
-    name: No content available yet.
-    description: No content available yet.
+    name: Liderazgo
+    description: >-
+      ¿Es nuestro liderazgo (incluyendo la administración y la Junta Directiva)
+      representativo de los diversos conjuntos de poblaciones con los que
+      trabajamos? ¿Comprenden y se preocupan por la Diversidad e Inclusión, y la
+      modelan en su liderazgo?
 - id: people-management
   en:
     name: People Management
@@ -47,11 +74,19 @@
       and leave policies, compensation and benefits, performance management, and
       learning and development prioritise Diversity & Inclusion?
   fr:
-    name: No content available yet.
-    description: No content available yet.
+    name: Gestion du personnel
+    description: >-
+      Nos processus de ressources humaines, y compris le recrutement,
+      l'intégration, les politiques de travail et de congé, la rémunération et
+      les avantages, la gestion des performances et l'apprentissage et le
+      développement, accordent-ils la priorité à la diversité et à l'inclusion ?
   es:
-    name: No content available yet.
-    description: No content available yet.
+    name: ' gestión del personal'
+    description: >-
+      ¿Nuestros procesos de Recursos Humanos, incluyendo la contratación, la
+      incorporación, las políticas de trabajo y licencias, la compensación y los
+      beneficios, la gestión del desempeño y el aprendizaje y el desarrollo, dan
+      prioridad a la Diversidad e Inclusión?
 - id: learning-accountability
   en:
     name: Learning & Accountability
@@ -60,11 +95,18 @@
       Inclusion goals, address grievances fairly, and ensure we learn from our
       mistakes?
   fr:
-    name: No content available yet.
-    description: No content available yet.
+    name: Apprentissage et redevabilité
+    description: >-
+      Avons-nous mis en place des mécanismes pour suivre et mesurer nos
+      objectifs en matière de diversité et d'inclusion, pour traiter les griefs
+      de manière équitable et pour nous assurer que nous tirons les leçons de
+      nos erreurs ?
   es:
-    name: No content available yet.
-    description: No content available yet.
+    name: 'Aprendizaje y rendición de cuentas '
+    description: >-
+      ¿Tenemos mecanismos para rastrear y medir nuestros objetivos de Diversidad
+      e Inclusión, abordar las quejas de manera justa y asegurarnos de que
+      aprendemos de nuestros errores?
 - id: project-program
   en:
     name: 'Project & Program Design, Planning & Strategy'
@@ -74,11 +116,19 @@
       are planned, success is defined and measured, and in the stories and
       perspectives that get considered?
   fr:
-    name: No content available yet.
-    description: No content available yet.
+    name: 'Conception de projets et de programmes, planification et stratégie'
+    description: >-
+      Nos projets et programmes sont-ils conçus de manière à inclure divers
+      groupes de population dans la façon dont les équipes sont structurées,
+      dont les buts et objectifs sont planifiés, dont le succès est défini et
+      mesuré, et dans les histoires et perspectives qui sont prises en compte ?
   es:
-    name: No content available yet.
-    description: No content available yet.
+    name: 'Diseño, planificación y estrategia de proyectos y programas'
+    description: >-
+      ¿Están nuestros proyectos y programas diseñados para incluir diversos
+      conjuntos de poblaciones en la forma en la que se estructuran los equipos,
+      se planifican las metas y objetivos, se define y mide el éxito, y en las
+      historias y perspectivas que se consideran?
 - id: external-relationships
   en:
     name: External Relationships
@@ -87,8 +137,16 @@
       relationships including our external partners, stakeholders and
       constituents, as well as our funders and clients?
   fr:
-    name: No content available yet.
-    description: No content available yet.
+    name: Relations extérieures
+    description: >-
+      Prenons-nous également en compte la diversité et l'inclusion dans nos
+      relations extérieures, notamment avec nos partenaires externes, les
+      parties prenantes et les électeurs, ainsi qu'avec nos bailleurs de fonds
+      et nos clients ?
   es:
-    name: No content available yet.
-    description: No content available yet.
+    name: Relations extérieures
+    description: >-
+      ¿También tenemos en cuenta la Diversidad e Inclusión en nuestras
+      relaciones externas, incluyendo a nuestros socios externos, partes
+      interesadas y constituyentes, así como a nuestros financiadores y
+      clientes?

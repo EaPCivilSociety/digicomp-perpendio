@@ -8,17 +8,15 @@ export const en = {
   welcomeEnterCode: 'Enter code',
   welcomeContinue: 'Continue',
   welcomeStartNewSelfAssessment: 'Start a New Self-Assessment',
-
   categoriesPleaseChoose: 'Please choose a category to start',
   categoriesChooseNext: 'Choose next category',
   categoriesDescriptionFirst:
-    'Here’s a bit more about why and how to choose the categories. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.',
+    'The self-assessment is divided into several key categories. We suggest you start with any category of your preference, as the order in which you go through different categories does not impact the overall results.',
   categoriesDescriptionSecond:
-    'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.',
+    'The more statements you go through, the more complete and informed results you will get.',
   categoriesStateOfDiversity: 'State of Our Diversity',
   categoriesSave: 'Save',
   categoriesExport: 'Export PDF',
-
   categoryInProgress: 'In progress',
   categorySetAsGoal: 'Set as goal',
   categoryRemoveGoal: 'Remove goal',
@@ -27,12 +25,9 @@ export const en = {
   categoryClickOnMaturityLevel:
     'Click on a maturity level to see finished and unanswered statements',
   categoryDoNotApply: 'do not apply',
-
   notFound: 'Not Found',
-
   statementPageBack: 'Back',
   statementShowResults: 'Show results',
-
   aboutSelfDiagnosticTool: 'About the Self-Diagnostic Tool',
   aboutParagraphOne:
     'There has been very little literature and case studies on the unique set up of civil society organisations to use as practical examples for the sector. Over the past year, <strong>CIVICUS tested the implementation of diverse and inclusive practices,and its impact on overall organisational health, through a one year pilot programme with different civil society actors</strong>. 8 CIVICUS members were selected from 400 applications with regional and contextual diversity. Once the pilot programme participants were selected CIVICUS matched each organization with an external consultant to undergo a diversity and inclusion audit. The audit was designed to be a stock taking exercise: looking what the organisation already has in terms of inclusive policies and practices and what glaring gaps need to be addressed. Each organisation received a comprehensive report identifying they were already doing well and recommendations on what they can improve with suggestions on how they can approach the gaps.',
@@ -55,27 +50,23 @@ export const en = {
   aboutDIGNAAdvisoryGroupMembers:
     '<strong>DIGNA Advisory Group Members:</strong> Juliana Catania (Argentina), Karen Phillip (Barbados), Dumiso Gatsha (Botswana), Ana Addobbati (Brazil), Camila Silva (Brazil), Carey Rutherford (Canada), Karin Watson (Chile), Islam El-Ghazouly (Egypt), Kalisito Biaukula (Fiji), Abdul Mufeez Shaheed (Fiji), Vandita Morarka (India), Chepkwemoi Kimtai (Kenya), Saro Imra (Pakistan), Justin Francis Bionat (Philippines), Belen Giaquinta (Argentina/UK), Lily Rosengard (UK), Maggie Musonda (Zambia), Bhekumusa Moyo (Zambia)',
   aboutSpecialThanks:
-    'Special thanks to: Thapelo Masiwa, Kgalalelo Gaebee, Silvia Puerto Aboy, Elisa Novoa, Hannah Wheatley, Anna Avagyan, Pam Gounder, Jack Cornforth, Merle Rutz, Amy Taylor, Deborah Walter, Jonathan Diab',
+    'Special thanks to: Thapelo Masiwa, Kgalalelo Gaebee, Silvia Puerto Aboy, Elisa Novoa, Hannah Wheatley, Anna Avagyan, Pam Gounder, Jack Cornforth, Merle Rutz, Amy Taylor, Deborah Walter, Jonathan Diab, Carolina Vega',
   aboutSpecialAppreciation:
     'We also wish to extend special appreciation to <a href="https://lindaraftree.com/">Linda Raftree</a>, whose work on the <a href="https://lindaraftree.com/2019/10/17/a-responsible-data-maturity-model-for-non-profits/">Responsible Data Maturity Model</a> guided our reasoning both in structure and in intent.',
-
   filtersShowFiltersByArea: 'Show Filters by Area',
   filtersRemoveFiltersByArea: 'Remove Filters by Area',
   goalButtonSetGoalPerCategory: 'Set goal per category',
   goalButtonFinishSettingGoal: 'Finish setting goals',
-
   saveModalSaveYourProgress: 'Save Your Progress',
   saveModalCopyThisCode:
     'Copy this code and save it somewhere safe. You can come back to your score and continue working on it.',
   saveModalCode: 'Code',
   saveModalCopied: 'Copied.',
   saveModalDone: 'Done',
-
   navigationAbout: 'About',
   navigationResources: 'Resources',
   navigationLanguages: 'Languages',
   navigationRestartAssessment: 'Restart Assessment',
-
   statementsProgress: 'Progress:',
   statementsRequired: 'Required:',
   statementsAssessment:
@@ -84,8 +75,7 @@ export const en = {
   statementsNotAtAll: 'Not at all',
   statementsSomewhat: 'Somewhat',
   statementsVeryMuch: 'Very much',
-  statementsDoesNotApply: ' Doesn’t apply',
-
+  statementsDoesNotApply: 'Doesn’t apply',
   resetModalRestartAssessment: 'Restart Assessment',
   resetModalTitle:
     'Are you sure you want to delete your progress and restart assesment?',
@@ -93,7 +83,6 @@ export const en = {
     'If you think current progress might be useful, consider saving it before restarting the assessment.',
   resetModalCancel: 'No, take me back',
   resetModalConfirm: 'Yes, delete my current progress.',
-
   exportModalExportPdf: 'Export PDF',
   exportModalDetails:
     'You can optionally add this information to customize your print. It will not be stored on the website.',
@@ -101,24 +90,25 @@ export const en = {
   exportModalNameOrganization: 'Name of organisation',
   exportModalLoading: 'Generating...',
   exportModalDownload: 'Download PDF',
-
-  /**
-   * PDF
-   */
-  // Cover
   pdfTitle: 'Diversity and Inclusion Self-assessment',
   pdfCompiledBy: 'Compiled by',
   pdfOnBehalfOf: 'On behalf of',
   pdfAssessmentCode: 'Assessment code',
-  // Introduction
   pdfIntroduction: 'Introduction',
-  // Categories and statements
   pdfCategoriesAndStatements: 'Categories and Statements',
-  // About
+  pdfAboutCreativeConsultancyTeams:
+    'Creative Consultancy Teams: Europe &amp; Southeast: Mario Mažić, Maja Nenadovic, Tin Geber',
+  pdfAboutSensemakingLab: 'Sensemaking Lab: Jayati Doshi and Ovee Karwa',
+  pdfAboutCIVICUSSupportTeam:
+    'CIVICUS Support Team: Suhani Bhushan, Oriana Castillo, Emaan Ali',
+  pdfAboutDIGNAAdvisoryGroupMembers:
+    'DIGNA Advisory Group Members: Juliana Catania (Argentina), Karen Phillip (Barbados), Dumiso Gatsha (Botswana), Ana Addobbati (Brazil), Camila Silva (Brazil), Carey Rutherford (Canada), Karin Watson (Chile), Islam El-Ghazouly (Egypt), Kalisito Biaukula (Fiji), Abdul Mufeez Shaheed (Fiji), Vandita Morarka (India), Chepkwemoi Kimtai (Kenya), Saro Imra (Pakistan), Justin Francis Bionat (Philippines), Belen Giaquinta (Argentina/UK), Lily Rosengard (UK), Maggie Musonda (Zambia), Bhekumusa Moyo (Zambia)',
   pdfAboutSpecialAppreciation1:
     'We also wish to extend special appreciation to',
   pdfAboutSpecialAppreciation2: ', whose work on the',
   pdfAboutSpecialAppreciationLink2: 'Responsible Data Maturity Model',
   pdfAboutSpecialAppreciation3:
     'guided our reasoning both in structure and in intent.',
+  introTutorial:
+    'As you select a category, you will be offered a series of statements. Try to evaluate the statements without overthinking, selecting the ones that best reflect your lived reality in your organisation. With every marked statement, the self-assessment tool receives information that helps determine the state of D&I standards and practices in your workplace.',
 };

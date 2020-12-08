@@ -3,58 +3,58 @@
     name: General
     description: No content available yet.
   fr:
-    name: No content available yet.
+    name: Généralités
     description: No content available yet.
   es:
-    name: No content available yet.
+    name: General
     description: No content available yet.
 - id: 'Ability, physical & mental health'
   en:
     name: 'Ability, physical & mental health'
     description: No content available yet.
   fr:
-    name: No content available yet.
+    name: 'Aptitude, santé physique et mentale'
     description: No content available yet.
   es:
-    name: No content available yet.
+    name: 'Habilidad, salud física y mental'
     description: No content available yet.
 - id: Gender and sexuality
   en:
     name: Gender and sexuality
     description: No content available yet.
   fr:
-    name: No content available yet.
+    name: Genre et sexualité
     description: No content available yet.
   es:
-    name: No content available yet.
+    name: Género y sexualidad
     description: No content available yet.
 - id: Religion
   en:
     name: Religion
     description: No content available yet.
   fr:
-    name: No content available yet.
+    name: Religion
     description: No content available yet.
   es:
-    name: No content available yet.
+    name: Religión
     description: No content available yet.
 - id: Socio-economic status
   en:
     name: Socio-economic status
     description: No content available yet.
   fr:
-    name: No content available yet.
+    name: Statut socio-économique
     description: No content available yet.
   es:
-    name: No content available yet.
+    name: Condición socioeconómica
     description: No content available yet.
 - id: 'Race, caste, and ethnicites'
   en:
     name: 'Race, caste, and ethnicites'
     description: No content available yet.
   fr:
-    name: No content available yet.
+    name: 'Race, caste et ethnies'
     description: No content available yet.
   es:
-    name: No content available yet.
+    name: 'Raza, casta y etnia'
     description: No content available yet.

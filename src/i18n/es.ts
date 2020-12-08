@@ -47,12 +47,12 @@ export const es = {
   filtersRemoveFiltersByArea: 'Eliminar los filtros por área',
   goalButtonSetGoalPerCategory: 'Establecer un objetivo por categoría',
   goalButtonFinishSettingGoal: 'Terminar de establecer los objetivos',
-  modalSaveYourProgress: 'Guarda tu progreso...',
-  modalCopyThisCode:
+  saveModalSaveYourProgress: 'Guarda tu progreso...',
+  saveModalCopyThisCode:
     'Copia este código y guárdalo en un lugar seguro. Puedes volver al mismo punto donde quedaste y seguir trabajando en el cuestionario.',
-  modalCode: 'Código',
-  modalCopied: 'Copiado.',
-  modalDone: 'Terminado',
+  saveModalCode: 'Código',
+  saveModalCopied: 'Copiado.',
+  saveModalDone: 'Terminado',
   navigationAbout: 'Sobre la herramienta',
   navigationLanguages: 'Idiomas',
   statementsProgress: 'Progreso:',
@@ -65,6 +65,40 @@ export const es = {
   statementsSomewhat: 'Poco',
   statementsVeryMuch: 'Mucho',
   statementsDoesNotApply: 'No aplica',
+  resetModalRestartAssessment: 'Reiniciar la evaluación',
+  resetModalTitle:
+    '¿Estás seguro de que quieres borrar tu progreso y reiniciar la evaluación?',
+  resetModalSubtitle:
+    'Si cree que los progresos actuales pueden ser útiles, considere la posibilidad de guardarlos antes de reiniciar la evaluación.',
+  resetModalCancel: 'No, llévame de vuelta',
+  resetModalConfirm: 'Sí, borra mi progreso actual.',
+  exportModalExportPdf: 'Exportar PDF',
+  exportModalDetails:
+    'Opcionalmente, puede agregar esta información para personalizar su impresión. No se almacenará en el sitio web.',
+  exportModalNameCompiler: 'Nombre(s) de(l)/(los) compilador(es)',
+  exportModalNameOrganization: 'Nombre de la organización',
+  exportModalLoading: 'Generando...',
+  exportModalDownload: 'Descargue el PDF',
+  pdfTitle: 'Autoevaluación de la diversidad e inclusión',
+  pdfCompiledBy: 'Compilado por',
+  pdfOnBehalfOf: 'En nombre de',
+  pdfAssessmentCode: 'Código de evaluación',
+  pdfIntroduction: 'Introducción',
+  pdfCategoriesAndStatements: 'Categorías y declaraciones',
+  pdfAboutCreativeConsultancyTeams:
+    'Equipo de Consultores: Europe & Southeast: Mario Mažić, Maja Nenadovic, Tin Geber',
+  pdfAboutSensemakingLab:
+    '<strong>Sensemaking Lab: </strong> Jayati Doshi and Ovee Karwa',
+  pdfAboutCIVICUSSupportTeam:
+    'Equipo de CIVICUS: Suhani Bhushan, Oriana Castillo, Emaan Ali',
+  pdfAboutDIGNAAdvisoryGroupMembers:
+    'Miembros del Grupo Consultivo de DIGNA Juliana Catania (Argentina), Karen Phillip (Barbados), Dumiso Gatsha (Botswana), Ana Addobbati (Brasil), Camila Silva (Brasil), Carey Rutherford (Canadá), Karin Watson (Chile), Islam El-Ghazouly (Egipto), Kalisito Biaukula (Fiji), Abdul Mufeez Shaheed (Fiji), Vandita Morarka (India), Chepkwemoi Kimtai (Kenya), Saro Imra (Pakistán), Justin Francis Bionat (Filipinas), Belén Giaquinta (Argentina/Reino Unido), Lily Rosengard (Reino Unido), Maggie Musonda (Zambia), Bhekumusa Moyo (Zambia)',
+  pdfAboutSpecialAppreciation1:
+    'También deseamos expresar nuestro especial agradecimiento a',
+  pdfAboutSpecialAppreciation2: ', cuyo trabajo en el',
+  pdfAboutSpecialAppreciationLink2: 'modelo  responsable de madurez de datos',
+  pdfAboutSpecialAppreciation3:
+    'guió nuestro razonamiento tanto en la estructura como en la intención.',
   introTutorial:
     'Al seleccionar una categoría, le aparecerán una serie de declaraciones. Intente evaluar las declaraciones sin pensar demasiado, seleccionando las que mejor reflejen la realidad vivida en su organización. Con cada declaración marcada, la herramienta de autoevaluación recibe información que ayuda a determinar el estado de las normas y prácticas de D&I en su lugar de trabajo.',
 };

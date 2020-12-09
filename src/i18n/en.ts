@@ -97,12 +97,12 @@ export const en = {
   pdfIntroduction: 'Introduction',
   pdfCategoriesAndStatements: 'Categories and Statements',
   pdfAboutCreativeConsultancyTeams:
-    'Creative Consultancy Teams: Europe &amp; Southeast: Mario Mažić, Maja Nenadovic, Tin Geber',
+    '<strong>Creative Consultancy Teams:</strong> Europe & Southeast: Mario Mažić, Maja Nenadovic, Tin Geber',
   pdfAboutSensemakingLab: 'Sensemaking Lab: Jayati Doshi and Ovee Karwa',
   pdfAboutCIVICUSSupportTeam:
-    'CIVICUS Support Team: Suhani Bhushan, Oriana Castillo, Emaan Ali',
+    '<strong>CIVICUS Support Team:</strong> Suhani Bhushan, Oriana Castillo, Emaan Ali',
   pdfAboutDIGNAAdvisoryGroupMembers:
-    'DIGNA Advisory Group Members: Juliana Catania (Argentina), Karen Phillip (Barbados), Dumiso Gatsha (Botswana), Ana Addobbati (Brazil), Camila Silva (Brazil), Carey Rutherford (Canada), Karin Watson (Chile), Islam El-Ghazouly (Egypt), Kalisito Biaukula (Fiji), Abdul Mufeez Shaheed (Fiji), Vandita Morarka (India), Chepkwemoi Kimtai (Kenya), Saro Imra (Pakistan), Justin Francis Bionat (Philippines), Belen Giaquinta (Argentina/UK), Lily Rosengard (UK), Maggie Musonda (Zambia), Bhekumusa Moyo (Zambia)',
+    '<strong>DIGNA Advisory Group Members:</strong> Juliana Catania (Argentina), Karen Phillip (Barbados), Dumiso Gatsha (Botswana), Ana Addobbati (Brazil), Camila Silva (Brazil), Carey Rutherford (Canada), Karin Watson (Chile), Islam El-Ghazouly (Egypt), Kalisito Biaukula (Fiji), Abdul Mufeez Shaheed (Fiji), Vandita Morarka (India), Chepkwemoi Kimtai (Kenya), Saro Imra (Pakistan), Justin Francis Bionat (Philippines), Belen Giaquinta (Argentina/UK), Lily Rosengard (UK), Maggie Musonda (Zambia), Bhekumusa Moyo (Zambia)',
   pdfAboutSpecialAppreciation1:
     'We also wish to extend special appreciation to',
   pdfAboutSpecialAppreciation2: ', whose work on the',

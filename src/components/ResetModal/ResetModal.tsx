@@ -31,17 +31,17 @@ const ResetModal = ({ open, setOpen }: ModalProps) => {
           <strong>{t('resetModalTitle')}</strong>
         </p>
         <p>{t('resetModalSubtitle')}</p>
-        <div className="modal-form d-flex flex-row justify-content-center">
+        <div className="modal-form d-flex flex-column flex-md-row justify-content-center">
           <button
             type="button"
-            className="btn btn-primary btn-sm modal-btn-done mt-4"
+            className="btn btn-primary btn-sm modal-btn-reset mt-4"
             onClick={setOpen}
           >
             <span>{t('resetModalCancel')}</span>
           </button>
           <button
             type="button"
-            className="btn btn-primary btn-sm modal-btn-done mt-4"
+            className="btn btn-outline btn-sm modal-btn-reset mt-4"
             onClick={handleReset}
           >
             <span>{t('resetModalConfirm')}</span>

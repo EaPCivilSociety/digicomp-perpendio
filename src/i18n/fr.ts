@@ -10,13 +10,21 @@ export const fr = {
   welcomeStartNewSelfAssessment: 'Commencer une nouvelle auto-évaluation',
   categoriesPleaseChoose: 'Veuillez choisir une catégorie pour commencer',
   categoriesChooseNext: 'Choisissez la catégorie suivante',
+  categoriesDescriptionFirst:
+    "L'auto-évaluation est divisée en plusieurs catégories clés. Nous vous suggérons de commencer par la catégorie de votre choix, car l'ordre dans lequel vous passez d'une catégorie à l'autre n'a aucune incidence sur les résultats globaux.",
+  categoriesDescriptionSecond:
+    'Plus le nombre de déclarations est élevé, plus les résultats obtenus seront complets.',
   categoriesStateOfDiversity: "L'état de notre diversité",
   categoriesSave: 'Sauvegarder',
+  categoriesExport: 'Exporter le PDF',
   categoryInProgress: 'En cours',
   categorySetAsGoal: "Fixer l'objectif",
   categoryRemoveGoal: "Supprimer l'objectif",
   categoryAnswered: 'dejà répondu',
   categoryBack: 'Retour',
+  categoryClickOnMaturityLevel:
+    'Cliquez sur un niveau de maturité pour voir les déclarations terminées et les déclarations sans réponse',
+  categoryDoNotApply: "n'est pas applicable",
   notFound: 'Non trouvé',
   statementPageBack: 'Retour',
   statementShowResults: 'Afficher les résultats',
@@ -43,6 +51,8 @@ export const fr = {
     'Membres du groupe consultatif DIGNA : Juliana Catania (Argentine), Karen Phillip (Barbade), Dumiso Gatsha (Botswana), Ana Addobbati (Brésil), Camila Silva (Brésil), Carey Rutherford (Canada), Karin Watson (Chili), Islam El-Ghazouly (Égypte), Kalisito Biaukula (Fidji), Abdul Mufeez Shaheed (Fidji), Vandita Morarka (Inde), Chepkwemoi Kimtai (Kenya), Saro Imra (Pakistan), Justin Francis Bionat (Philippines), Belen Giaquinta (Argentine / Royaume-Uni), Lily Rosengard (Royaume-Uni), Maggie Musonda (Zambie), Bhekumusa Moyo (Zambie)',
   aboutSpecialThanks:
     'Remerciements particuliers à : Thapelo Masiwa, Kgalalelo Gaebee, Silvia Puerto Aboy, Elisa Novoa, Hannah Wheatley, Anna Avagyan, Pam Gounder, Jack Cornforth, Merle Rutz, Amy Taylor, Deborah Walter, Jonathan Diab, Carolina Vega',
+  aboutSpecialAppreciation:
+    'Nous tenons également à remercier tout particulièrement <a href="https://lindaraftree.com/">Linda Raftree</a>, dont les travaux sur le <a href="https://lindaraftree.com/2019/10/17/a-responsible-data-maturity-model-for-non-profits/">modèle de maturité des données responsables</a> ont guidé notre raisonnement tant au niveau de la structure que de l\'intention.',
   filtersShowFiltersByArea: 'Afficher les filtres par domaine',
   filtersRemoveFiltersByArea: 'Supprimer les filtres par domaine',
   goalButtonSetGoalPerCategory: 'Fixer un objectif par catégorie',
@@ -54,7 +64,9 @@ export const fr = {
   saveModalCopied: 'Copié.',
   saveModalDone: 'Fait',
   navigationAbout: 'À propos de',
+  navigationResources: 'Ressources',
   navigationLanguages: 'Langues',
+  navigationRestartAssessment: "Redémarrer l'Évaluation",
   statementsProgress: 'Progrès :',
   statementsRequired: 'Nécessaire :',
   statementsAssessment:
@@ -65,7 +77,7 @@ export const fr = {
   statementsSomewhat: 'Un peu',
   statementsVeryMuch: 'Beaucoup',
   statementsDoesNotApply: "Ne s'applique pas",
-  resetModalRestartAssessment: "recommencer l'évaluation",
+  resetModalRestartAssessment: "Recommencer l'évaluation",
   resetModalTitle:
     "Êtes-vous sûr de vouloir supprimer vos progrès et recommencer l'évaluation ?",
   resetModalSubtitle:
@@ -86,13 +98,12 @@ export const fr = {
   pdfIntroduction: 'Introduction',
   pdfCategoriesAndStatements: 'Catégories et déclarations',
   pdfAboutCreativeConsultancyTeams:
-    'Équipe de consultants: Europe & Southeast: Mario Mažić, Maja Nenadovic, Tin Geber',
-  pdfAboutSensemakingLab:
-    '<strong>Sensemaking Lab: </strong> Jayati Doshi and Ovee Karwa',
+    '<strong>Équipe de consultants:</strong> Europe & Southeast: Mario Mažić, Maja Nenadovic, Tin Geber',
+  pdfAboutSensemakingLab: 'Sensemaking Lab: Jayati Doshi and Ovee Karwa',
   pdfAboutCIVICUSSupportTeam:
-    'Équipe CIVICUS : Suhani Bhushan, Oriana Castillo, Emaan Ali',
+    '<strong>Équipe CIVICUS:</strong> Suhani Bhushan, Oriana Castillo, Emaan Ali',
   pdfAboutDIGNAAdvisoryGroupMembers:
-    'Membres du groupe consultatif DIGNA : Juliana Catania (Argentine), Karen Phillip (Barbade), Dumiso Gatsha (Botswana), Ana Addobbati (Brésil), Camila Silva (Brésil), Carey Rutherford (Canada), Karin Watson (Chili), Islam El-Ghazouly (Égypte), Kalisito Biaukula (Fidji), Abdul Mufeez Shaheed (Fidji), Vandita Morarka (Inde), Chepkwemoi Kimtai (Kenya), Saro Imra (Pakistan), Justin Francis Bionat (Philippines), Belen Giaquinta (Argentine / Royaume-Uni), Lily Rosengard (Royaume-Uni), Maggie Musonda (Zambie), Bhekumusa Moyo (Zambie)',
+    '<strong>Membres du groupe consultatif DIGNA :</strong> Juliana Catania (Argentine), Karen Phillip (Barbade), Dumiso Gatsha (Botswana), Ana Addobbati (Brésil), Camila Silva (Brésil), Carey Rutherford (Canada), Karin Watson (Chili), Islam El-Ghazouly (Égypte), Kalisito Biaukula (Fidji), Abdul Mufeez Shaheed (Fidji), Vandita Morarka (Inde), Chepkwemoi Kimtai (Kenya), Saro Imra (Pakistan), Justin Francis Bionat (Philippines), Belen Giaquinta (Argentine / Royaume-Uni), Lily Rosengard (Royaume-Uni), Maggie Musonda (Zambie), Bhekumusa Moyo (Zambie)',
   pdfAboutSpecialAppreciation1:
     'Nous tenons également à remercier tout particulièrement',
   pdfAboutSpecialAppreciation2: ', dont les travaux sur la',

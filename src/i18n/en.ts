@@ -111,4 +111,7 @@ export const en = {
     'guided our reasoning both in structure and in intent.',
   introTutorial:
     'As you select a category, you will be offered a series of statements. Try to evaluate the statements without overthinking, selecting the ones that best reflect your lived reality in your organisation. With every marked statement, the self-assessment tool receives information that helps determine the state of D&I standards and practices in your workplace.',
+  resultsUnansweredStatements: 'Unanswered statements',
+  resultsIn: 'in',
+  resultsFinishedStatements: 'Finished statements',
 };

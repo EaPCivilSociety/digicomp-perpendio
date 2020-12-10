@@ -31,16 +31,18 @@ const Categorypage = () => {
   const [modalVisbility, toggleModal] = useToggle(false);
   const [exportModalVisibility, toggleExportModal] = useToggle(false);
 
-  const { title, description } = useMemo(() => {
+  const { title, intro, description } = useMemo(() => {
     if (showResults) {
       return {
         title: t('categoriesChooseNext'),
+        intro: null,
         description: t('categoriesDescriptionSecond'),
       };
     }
 
     return {
       title: t('categoriesPleaseChoose'),
+      intro: t('introTutorial'),
       description: t('categoriesDescriptionFirst'),
     };
   }, [showResults, t]);
@@ -145,6 +147,7 @@ const Categorypage = () => {
           <header className="content-header text-md-center">
             <h1>{title}</h1>
             <p>{description}</p>
+            <p>{intro}</p>
           </header>
         </div>
       ) : (
@@ -152,6 +155,7 @@ const Categorypage = () => {
           <header className="content-header text-md-center">
             <h3>{title}</h3>
             <p>{description}</p>
+            <p>{intro}</p>
           </header>
         </div>
       )}

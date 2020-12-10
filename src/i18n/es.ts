@@ -112,4 +112,7 @@ export const es = {
     'guió nuestro razonamiento tanto en la estructura como en la intención.',
   introTutorial:
     'Al seleccionar una categoría, le aparecerán una serie de declaraciones. Intente evaluar las declaraciones sin pensar demasiado, seleccionando las que mejor reflejen la realidad vivida en su organización. Con cada declaración marcada, la herramienta de autoevaluación recibe información que ayuda a determinar el estado de las normas y prácticas de D&I en su lugar de trabajo.',
+  resultsUnansweredStatements: 'Declaraciones que no han sido respondidas',
+  resultsIn: 'en',
+  resultsFinishedStatements: 'Declaraciones contestadas',
 };

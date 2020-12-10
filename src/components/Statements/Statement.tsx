@@ -9,6 +9,7 @@ import { Answer, Statement } from 'store/statements';
 import { Result, setResult } from 'store/results';
 import { useTranslations } from 'i18n';
 import { FADE_VARIANTS } from 'const';
+import { tags } from 'data';
 
 type StatementProps = {
   statement?: Statement;
@@ -29,6 +30,12 @@ const StatementCmp = ({ statement, answered }: StatementProps) => {
       };
       dispatch(setResult(result));
     }
+  };
+
+  const getTagTranslation = (tag: string): string => {
+    const tagTranslation = tags.filter((tt: any) => tt.id === tag)[0];
+
+    return tagTranslation ? tagTranslation[language.id]?.name : '';
   };
 
   return (
@@ -99,7 +106,7 @@ const StatementCmp = ({ statement, answered }: StatementProps) => {
       <ul className="question-card-tags">
         {statement?.tags &&
           statement?.tags.map((tag: string, index: number) => (
-            <li key={index}>{tag}</li>
+            <li key={index}>{getTagTranslation(tag)}</li>
           ))}
       </ul>
     </motion.div>

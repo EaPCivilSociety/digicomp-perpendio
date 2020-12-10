@@ -142,9 +142,9 @@ const CategoryResultPage = () => {
                   animate="animate"
                   exit="exit"
                 >
-                  <h3>{`Unanswered statements${
+                  <h3>{`${t('resultsUnansweredStatements')}${
                     selectedMaturityStageName
-                      ? ` in ${selectedMaturityStageName}`
+                      ? ` ${t('resultsIn')} ${selectedMaturityStageName}`
                       : ''
                   }`}</h3>
                 </motion.header>
@@ -171,9 +171,9 @@ const CategoryResultPage = () => {
                     animate="animate"
                     exit="exit"
                   >
-                    <h3>{`Finished statements${
+                    <h3>{`${t('resultsFinishedStatements')}${
                       selectedMaturityStageName
-                        ? ` in ${selectedMaturityStageName}`
+                        ? ` ${t('resultsIn')} ${selectedMaturityStageName}`
                         : ''
                     }`}</h3>
                   </motion.header>

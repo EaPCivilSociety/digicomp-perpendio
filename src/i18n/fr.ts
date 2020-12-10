@@ -113,4 +113,7 @@ export const fr = {
     "a guidé notre raisonnement tant dans la structure que dans l'intention.",
   introTutorial:
     "Lorsque vous sélectionnez une catégorie, une série de déclarations apparaîtra. Essayez d'évaluer les déclarations sans trop réfléchir, en sélectionnant celles qui reflètent le mieux la réalité vécue dans votre organisation. Avec chaque déclaration choisie, l'outil d'auto-évaluation reçoit des informations qui aident à déterminer le statut des normes et pratiques de D&I sur votre lieu de travail.",
+  resultsUnansweredStatements: 'Déclarations sans réponse',
+  resultsIn: 'dans',
+  resultsFinishedStatements: 'Déclarations répondues',
 };

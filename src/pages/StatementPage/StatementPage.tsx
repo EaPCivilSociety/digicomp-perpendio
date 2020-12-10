@@ -49,10 +49,10 @@ const StatementPage = () => {
           </div>
           <div className="questions-header-content">
             <div className="questions-header-card-title">
-              {category![language.id]?.name}
+              {category ? category![language.id]?.name : ''}
             </div>
             <div className="questions-header-card-description">
-              {category![language.id]?.description}
+              {category ? category![language.id]?.description : ''}
             </div>
           </div>
           <div>

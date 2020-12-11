@@ -65,6 +65,7 @@ export const en = {
   saveModalDone: 'Done',
   navigationAbout: 'About',
   navigationResources: 'Resources',
+  navigationTutorial: 'Tutorial',
   navigationLanguages: 'Languages',
   navigationRestartAssessment: 'Restart Assessment',
   statementsProgress: 'Progress:',
@@ -114,4 +115,40 @@ export const en = {
   resultsUnansweredStatements: 'Unanswered statements',
   resultsIn: 'in',
   resultsFinishedStatements: 'Finished statements',
+  howToUsePageTitle: 'How to use',
+  howToUseIntro:
+    'This is a self-evaluation webapp based on the concept of the maturity model, inspired by Linda Raftrees work on the <a href="https://lindaraftree.com/2019/10/17/a-responsible-data-maturity-model-for-non-profits/">Responsible Data Maturity Model</a>. The maturity model is self-reflective: instead of asking questions, it presents statements that describe a certain level of organisational maturity with regards to a category, like program development or infrastructure. Through a series of collaborative design rounds with audience representatives, the statements have been crafted and assigned to a maturity level:',
+  howToUseListA1: 'Unaware',
+  howToUseListA2: 'Ad-Hoc',
+  howToUseListA3: 'Developing',
+  howToUseListA4: 'Mastering',
+  howToUseListA5: 'Leading',
+  howToUseAssigningValuesToStatements: 'Assigning values to statements',
+  howToUseParagraph1:
+    'For each statement, you are asked to express how much that statement resonates with your organisation’s experience:',
+  howToUseListB1: 'Not at all',
+  howToUseListB2: 'Somewhat',
+  howToUseListB3: 'Very Much',
+  howToUseListB4: 'Doesn’t apply',
+  howToUseParagraph2:
+    'There are more than 200 statements, so the work of going through all of them is not easy. We did our best to simplify it: you can either choose to go through a random list of statements pertaining to a category, or you can drill down into a category and see all the statements pertaining to a maturity level.',
+  howToUseParagraph3:
+    'For best results, we recommend going through the evaluation tool with the support of a Diversity & Inclusion specialist, who will be able to guide you through the more complex bits and give you insight.',
+  howToUseAnalysingYourAssessment: 'Analysing your assessment',
+  howToUseParagraph4:
+    'The core feature of the website is a table where rows represent maturity categories, and columns represent maturity levels. On this overview, you can:',
+  howToUseSeeASnapshot:
+    'See a snapshot of your current progress and deep dive into single categories:',
+  howToUseFilterTheResultsByDiveristy:
+    'Filter the results by diversity thematic areas:',
+  howToUseAssignMaturityGoals: 'Assign maturity goals for each category:',
+  howToUseSaveYourProgress: 'Save your progress:',
+  howToUseExportToPDF: 'Export your entire assessment as a PDF:',
+  howToUseSavingAndExporting: 'Saving and exporting',
+  howToUseParagraph5:
+    'When saving, you are given a code to paste somewhere safe. Since this tool doesn’t collect any data by design, the only way to come back to your progress is by enteringentering the code on the homepage.',
+  howToUseParagraph6:
+    'If you export your progress as a PDF, you will find the code on the front page for easy copying and pasting.',
+  howToUseParagraph7:
+    'We designed the PDF export as a comprehensive Maturity Plan that you can use in meetings and workshops, when sitting down with you manager, or simply to doodle through it while planning your strategy. Keep in mind that it’s about 50 pages long and is generated in real time, so your browser might get a bit slow for 5 seconds.',
 };

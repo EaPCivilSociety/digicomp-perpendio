@@ -89,12 +89,17 @@ const Navigation = () => {
             </a>
             <ul className="navigation-desktop__navigation">
               <li className="active">
-                <Link to={`/about`} title="About">
+                <Link to={`/about`} title={t('navigationAbout')}>
                   {t('navigationAbout')}
                 </Link>
               </li>
               <li className="active">
-                <Link to={`/resources`} title="Resources">
+                <Link to={`/how-to-use`} title={t('navigationTutorial')}>
+                  {t('navigationTutorial')}
+                </Link>
+              </li>
+              <li className="active">
+                <Link to={`/resources`} title={t('navigationResources')}>
                   {t('navigationResources')}
                 </Link>
               </li>
@@ -113,12 +118,17 @@ const Navigation = () => {
           <div className="mobile-menu">
             <ul className="mobile-menu__navigation">
               <li className="active">
-                <Link to={`/about`} title="About">
+                <Link to={`/about`} title={t('navigationAbout')}>
                   {t('navigationAbout')}
                 </Link>
               </li>
               <li className="active">
-                <Link to={`/resources`} title="Resources">
+                <Link to={`/how-to-use`} title={t('navigationTutorial')}>
+                  {t('navigationTutorial')}
+                </Link>
+              </li>
+              <li className="active">
+                <Link to={`/resources`} title={t('navigationResources')}>
                   {t('navigationResources')}
                 </Link>
               </li>

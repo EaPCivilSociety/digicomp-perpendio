@@ -222,6 +222,11 @@ ul {
   padding: 0;
 }
 
+ul.styled-list {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
 // Inputs
 .form-control {
   border: 1px solid #000000;
@@ -282,6 +287,7 @@ ul {
 @import 'styles/questions';
 @import 'styles/progress';
 @import 'styles/category';
+@import 'styles/howto';
 @import 'styles/categories';
 @import 'styles/goals';
 @import 'styles/filters';

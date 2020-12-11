@@ -12,6 +12,7 @@ import { CategoryResultPage } from 'pages/CategoryResultPage';
 import { StatementPage } from 'pages/StatementPage';
 import { NotFound } from 'pages/NotFound';
 import { AboutPage } from 'pages/AboutPage';
+import { HowToUsePage } from 'pages/HowToUsePage';
 import { ResourcesPage } from 'pages/ResourcesPage';
 
 import { setCategories } from 'store/categories';
@@ -49,6 +50,7 @@ function App() {
           <Route path={'/'} exact component={WelcomePage} />
           <Route path={'/about'} exact component={AboutPage} />
           <Route path={'/resources'} exact component={ResourcesPage} />
+          <Route path={'/how-to-use'} exact component={HowToUsePage} />
           <Route path={'/category'} exact component={CategoryPage} />
           <Route
             path={'/category-result/:categoryId'}

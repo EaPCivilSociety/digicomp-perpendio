@@ -17,6 +17,13 @@ import GoalActiveIcon from './goalActive.svg';
 import StarIcon from './star.svg';
 import File from './file.svg';
 
+import HowToOne from './howto/digna-tutorial-1.gif';
+import HowToTwo from './howto/digna-tutorial-2.gif';
+import HowToThree from './howto/digna-tutorial-3.gif';
+import HowToFour from './howto/digna-tutorial-4.gif';
+import HowToFive from './howto/digna-tutorial-5.gif';
+import HowToSix from './howto/digna-tutorial-6.gif';
+
 export {
   Logo,
   ArrowRightIcon,
@@ -36,4 +43,10 @@ export {
   GoalActiveIcon,
   StarIcon,
   File,
+  HowToOne,
+  HowToTwo,
+  HowToThree,
+  HowToFour,
+  HowToFive,
+  HowToSix,
 };

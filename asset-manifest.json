@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "https://diversitytool.civicus.org/static/css/main.2eac608b.chunk.css",
-    "main.js": "https://diversitytool.civicus.org/static/js/main.42a34213.chunk.js",
-    "main.js.map": "https://diversitytool.civicus.org/static/js/main.42a34213.chunk.js.map",
+    "main.css": "https://diversitytool.civicus.org/static/css/main.026dc380.chunk.css",
+    "main.js": "https://diversitytool.civicus.org/static/js/main.a154a90e.chunk.js",
+    "main.js.map": "https://diversitytool.civicus.org/static/js/main.a154a90e.chunk.js.map",
     "runtime-main.js": "https://diversitytool.civicus.org/static/js/runtime-main.1c779bfe.js",
     "runtime-main.js.map": "https://diversitytool.civicus.org/static/js/runtime-main.1c779bfe.js.map",
-    "static/js/2.bc4a84ef.chunk.js": "https://diversitytool.civicus.org/static/js/2.bc4a84ef.chunk.js",
-    "static/js/2.bc4a84ef.chunk.js.map": "https://diversitytool.civicus.org/static/js/2.bc4a84ef.chunk.js.map",
+    "static/js/2.b6e0f301.chunk.js": "https://diversitytool.civicus.org/static/js/2.b6e0f301.chunk.js",
+    "static/js/2.b6e0f301.chunk.js.map": "https://diversitytool.civicus.org/static/js/2.b6e0f301.chunk.js.map",
     "index.html": "https://diversitytool.civicus.org/index.html",
-    "static/css/main.2eac608b.chunk.css.map": "https://diversitytool.civicus.org/static/css/main.2eac608b.chunk.css.map",
-    "static/js/2.bc4a84ef.chunk.js.LICENSE.txt": "https://diversitytool.civicus.org/static/js/2.bc4a84ef.chunk.js.LICENSE.txt",
+    "static/css/main.026dc380.chunk.css.map": "https://diversitytool.civicus.org/static/css/main.026dc380.chunk.css.map",
+    "static/js/2.b6e0f301.chunk.js.LICENSE.txt": "https://diversitytool.civicus.org/static/js/2.b6e0f301.chunk.js.LICENSE.txt",
     "static/media/arrow-left-white.5c0b93db.svg": "https://diversitytool.civicus.org/static/media/arrow-left-white.5c0b93db.svg",
     "static/media/arrow-right.b58e49cc.svg": "https://diversitytool.civicus.org/static/media/arrow-right.b58e49cc.svg",
     "static/media/cc.096670ac.svg": "https://diversitytool.civicus.org/static/media/cc.096670ac.svg",
     "static/media/civicus.a7d46946.svg": "https://diversitytool.civicus.org/static/media/civicus.a7d46946.svg",
     "static/media/close.09ddbab6.svg": "https://diversitytool.civicus.org/static/media/close.09ddbab6.svg",
+    "static/media/digna-tutorial-1.e68b1fc0.gif": "https://diversitytool.civicus.org/static/media/digna-tutorial-1.e68b1fc0.gif",
+    "static/media/digna-tutorial-2.e1761e0f.gif": "https://diversitytool.civicus.org/static/media/digna-tutorial-2.e1761e0f.gif",
+    "static/media/digna-tutorial-3.3df609c1.gif": "https://diversitytool.civicus.org/static/media/digna-tutorial-3.3df609c1.gif",
+    "static/media/digna-tutorial-4.a3015f26.gif": "https://diversitytool.civicus.org/static/media/digna-tutorial-4.a3015f26.gif",
+    "static/media/digna-tutorial-5.db72b283.gif": "https://diversitytool.civicus.org/static/media/digna-tutorial-5.db72b283.gif",
+    "static/media/digna-tutorial-6.8617c2e6.gif": "https://diversitytool.civicus.org/static/media/digna-tutorial-6.8617c2e6.gif",
     "static/media/file.6b3fea24.svg": "https://diversitytool.civicus.org/static/media/file.6b3fea24.svg",
     "static/media/filtersClose.80a06a07.svg": "https://diversitytool.civicus.org/static/media/filtersClose.80a06a07.svg",
     "static/media/filtersOpen.1b2f3d70.svg": "https://diversitytool.civicus.org/static/media/filtersOpen.1b2f3d70.svg",
@@ -31,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1c779bfe.js",
-    "static/js/2.bc4a84ef.chunk.js",
-    "static/css/main.2eac608b.chunk.css",
-    "static/js/main.42a34213.chunk.js"
+    "static/js/2.b6e0f301.chunk.js",
+    "static/css/main.026dc380.chunk.css",
+    "static/js/main.a154a90e.chunk.js"
   ]
 }

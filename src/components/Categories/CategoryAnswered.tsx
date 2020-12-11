@@ -165,7 +165,11 @@ const CategoryAnswered = ({
                 {settingsGoalActive && !isGoalSetOnCategory && (
                   <div
                     className="answer-header-content"
-                    onClick={() => dispatch(setGoal(mStage, category.id))}
+                    onClick={(e: any) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      dispatch(setGoal(mStage, category.id));
+                    }}
                   >
                     <span>{t('categorySetAsGoal')}</span>
                     <img src={GoalCardIcon} alt="Set as goal" />
@@ -174,7 +178,11 @@ const CategoryAnswered = ({
                 {isGoalSet && (
                   <div
                     className="answer-header-content-remove"
-                    onClick={() => dispatch(removeGoal(mStage, category.id))}
+                    onClick={(e: any) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      dispatch(removeGoal(mStage, category.id));
+                    }}
                   >
                     <span>{t('categoryRemoveGoal')}</span>
                     <img src={GoalCardIcon} alt="Remove as goal" />

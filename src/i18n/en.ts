@@ -1,7 +1,7 @@
 export const en = {
-  welcomeTitle: 'Self-assessment tool on Diversity & Inclusion',
+  welcomeTitle: 'Digital Competence Diagnostic tool',
   welcomeDescription:
-    'This tool assists civil society organisations and movements in their journey to become more inclusive, diverse and sensitive to the needs, identities and backgrounds of their people. We believe in peoples\' best intentions to reflect on themselves, their culture and practices, engaging in difficult dialogues when necessary. \n\nInteracting with this tool is not a panacea for solving discrimination, racism or workplace harassment. Rather, it provides a snapshot of where your organisation lies on the maturity model spectrum, with suggestions on how to grow in areas that need attention. It is not a rating or certification platform: we believe there is no "stamp of achievement" that an organisation can claim for "sufficient diversity."\n\nWe hope that this tool will support civil society organisations in becoming inspiring role-models and champions of diversity & inclusion in their communities, helping in the process our common mission of building a better, fairer, more socially just and kind world.',
+    "This tool assists civil society and movements with assessing their digital competence. We believe in peoples' best intentions to reflect on themselves, their culture and practices, engaging in difficult dialogues when necessary. \n\n More text",
   welcomeStartSelfAssessment: 'Start Self-Assessment',
   welcomeOr: 'or',
   welcomePickUpWhereYouLeft: 'Pick up where you left off.',

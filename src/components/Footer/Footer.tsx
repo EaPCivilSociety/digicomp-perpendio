@@ -1,5 +1,5 @@
 import React from 'react';
-import { CivicusIcon, CreativeCommonsIcon, GitHubIcon } from 'images';
+import { CreativeCommonsIcon, GitHubIcon } from 'images';
 
 const Footer = () => {
   return (
@@ -8,10 +8,7 @@ const Footer = () => {
         <a href="https://creativecommons.org/licenses/by-sa/4.0/">
           <img src={CreativeCommonsIcon} alt="Creative Commons" />
         </a>
-        <a href="https://civicus.org/">
-          <img src={CivicusIcon} alt="Civicus" width="80px" height="80px" />
-        </a>
-        <a href="https://github.com/CIVICUSDIGNA/diversitytool">
+        <a href="https://github.com/tinkery-tech/digicomp-perpendio">
           <img src={GitHubIcon} alt="GitHub" />
         </a>
       </div>

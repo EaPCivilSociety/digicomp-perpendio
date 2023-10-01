@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) and (stroke-color: transparent) {
@@ -73,7 +74,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Quicksand', sans-serif;
   margin-top: 0;
 }
 

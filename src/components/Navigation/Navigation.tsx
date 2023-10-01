@@ -6,7 +6,7 @@ import { useTranslations } from 'i18n';
 
 import { CloseIcon, GlobeIcon, Logo, MenuIcon } from 'images';
 import { useToggle } from 'hooks/useToggle';
-import { LanguageDropdown } from 'components/LanguageDropdown';
+// import { LanguageDropdown } from 'components/LanguageDropdown';
 import Footer from 'components//Footer/Footer';
 
 import {
@@ -112,7 +112,7 @@ const Navigation = () => {
           </div>
         </div>
 
-        <LanguageDropdown />
+        {/* <LanguageDropdown /> */}
 
         {mobileMenuOpen && (
           <div className="mobile-menu">

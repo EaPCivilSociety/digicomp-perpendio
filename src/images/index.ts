@@ -1,4 +1,4 @@
-import Logo from './logo.svg';
+import Logo from './logo-white.svg';
 import ArrowRightIcon from './arrow-right.svg';
 import ArrowLeftWhiteIcon from './arrow-left-white.svg';
 import CloseIcon from './close.svg';

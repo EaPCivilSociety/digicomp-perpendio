@@ -1,21 +1,21 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
+// import { useDispatch, useSelector } from 'react-redux';
 import { useTranslations } from 'i18n';
 
-import { CloseIcon, GlobeIcon, Logo, MenuIcon } from 'images';
+import { CloseIcon, Logo, MenuIcon } from 'images';
 import { useToggle } from 'hooks/useToggle';
 // import { LanguageDropdown } from 'components/LanguageDropdown';
 import Footer from 'components//Footer/Footer';
 
-import {
-  getLanguages,
-  getSelectedLanguage,
-  Language,
-  setSelectedLanguage,
-} from 'store/languages';
-import classNames from 'classnames';
+// import {
+//   getLanguages,
+//   getSelectedLanguage,
+//   Language,
+//   setSelectedLanguage,
+// } from 'store/languages';
+// import classNames from 'classnames';
 import ResetModal from 'components/ResetModal/ResetModal';
 
 const Navigation = () => {
@@ -24,16 +24,16 @@ const Navigation = () => {
   const [modalVisbility, toggleModal] = useToggle(false);
   const { t } = useTranslations();
 
-  const dispatch = useDispatch();
-  const languages = useSelector(getLanguages);
-  const selectedLanguage = useSelector(getSelectedLanguage);
+  // const dispatch = useDispatch();
+  // const languages = useSelector(getLanguages);
+  // const selectedLanguage = useSelector(getSelectedLanguage);
 
-  const languageClicked = (language: Language) => (
-    ev: React.MouseEvent<HTMLAnchorElement, MouseEvent>
-  ) => {
-    ev.preventDefault();
-    dispatch(setSelectedLanguage(language));
-  };
+  // const languageClicked =
+  //   (language: Language) =>
+  //   (ev: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  //     ev.preventDefault();
+  //     dispatch(setSelectedLanguage(language));
+  //   };
 
   const logoClicked = (
     event: React.MouseEvent<HTMLAnchorElement, MouseEvent>
@@ -83,33 +83,33 @@ const Navigation = () => {
         </div>
 
         <div className="navigation-desktop">
-          <div className="navigation-desktop__left">
-            <a href="#" onClick={logoClicked}>
-              <img src={Logo} alt="Logo" className="navigation-desktop-logo" />
-            </a>
-            <ul className="navigation-desktop__navigation">
-              <li className="active">
-                <Link to={`/about`} title={t('navigationAbout')}>
-                  {t('navigationAbout')}
-                </Link>
-              </li>
-              <li className="active">
-                <Link to={`/how-to-use`} title={t('navigationTutorial')}>
-                  {t('navigationTutorial')}
-                </Link>
-              </li>
-              <li className="active">
-                <Link to={`/resources`} title={t('navigationResources')}>
-                  {t('navigationResources')}
-                </Link>
-              </li>
-              <li className="active">
-                <a href="#" onClick={handleRestart}>
-                  {t('navigationRestartAssessment')}
-                </a>
-              </li>
-            </ul>
-          </div>
+          {/* <div className="navigation-desktop__left"> */}
+          <a href="#" onClick={logoClicked}>
+            <img src={Logo} alt="Logo" className="navigation-desktop-logo" />
+          </a>
+          <ul className="navigation-desktop__navigation">
+            <li className="active">
+              <Link to={`/about`} title={t('navigationAbout')}>
+                {t('navigationAbout')}
+              </Link>
+            </li>
+            <li className="active">
+              <Link to={`/how-to-use`} title={t('navigationTutorial')}>
+                {t('navigationTutorial')}
+              </Link>
+            </li>
+            <li className="active">
+              <Link to={`/resources`} title={t('navigationResources')}>
+                {t('navigationResources')}
+              </Link>
+            </li>
+            <li className="active">
+              <a href="#" onClick={handleRestart}>
+                {t('navigationRestartAssessment')}
+              </a>
+            </li>
+          </ul>
+          {/* </div> */}
         </div>
 
         {/* <LanguageDropdown /> */}
@@ -140,7 +140,7 @@ const Navigation = () => {
             </ul>
 
             <div className="d-flex flex-column align-items-center">
-              <div className="mobile-menu__language">
+              {/* <div className="mobile-menu__language">
                 <img src={GlobeIcon} alt="Choose language" />
                 <b>{t('navigationLanguages')}</b>
               </div>
@@ -160,7 +160,7 @@ const Navigation = () => {
                     </li>
                   );
                 })}
-              </ul>
+              </ul> */}
               <Footer />
             </div>
           </div>

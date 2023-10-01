@@ -63,7 +63,8 @@ body {
     right: 0;
     bottom: 0;
     z-index: -1;
-    background: linear-gradient(233.91deg, #182848 -1.81%, #4b6cb7 95.34%);
+    // background: linear-gradient(233.91deg, #182848 -1.81%, #4b6cb7 95.34%);
+    background: linear-gradient(233.91deg, #9c3bc6 -1.81%, #00bfca 95.34%);
   }
 }
 
@@ -116,19 +117,20 @@ p {
   border: 2px solid transparent;
 
   &-primary {
-    background: #ffb400;
+    // background: #ffb400;
+    background: #9c3bc6;
     line-height: 24px;
-    color: #333333;
+    color: #fff;
     font-weight: 700;
-    border-color: #ffb400;
+    border-color: #ae7dc2;
 
     &:hover,
     &:active,
     &:focus {
-      background: #e09e00 !important;
-      background-color: #e09e00 !important;
-      color: #333333 !important;
-      border-color: #e09e00 !important;
+      background: #9c3bc6 !important;
+      background-color: #9c3bc6 !important;
+      color: #fff !important;
+      border-color: #9c3bc6 !important;
       outline: none;
     }
   }

@@ -1,16 +1,16 @@
-# Self-assessment tool on Diversity & Inclusion
+# Digital Competence Self-assessment tool
 
-This tool assists civil society organisations and movements in their journey to become more inclusive, diverse and sensitive to the needs, identities and backgrounds of their people. We believe in peoples\' best intentions to reflect on themselves, their culture and practices, engaging in difficult dialogues when necessary.
 
-Interacting with this tool is not a panacea for solving discrimination, racism or workplace harassment. Rather, it provides a snapshot of where your organisation lies on the maturity model spectrum, with suggestions on how to grow in areas that need attention. It is not a rating or certification platform: we believe there is no "stamp of achievement" that an organisation can claim for "sufficient diversity."
+This tool assists civil society organisations and movements in their journey to increase their digital competence, to better respond to the needs, identities and backgrounds of their people. The tool is designed around the [EU Digital Competence Framework](https://joint-research-centre.ec.europa.eu/digcomp/digcomp-framework_en). 
 
-We hope that this tool will support civil society organisations in becoming inspiring role-models and champions of diversity & inclusion in their communities, helping in the process our common mission of building a better, fairer, more socially just and kind world.
+This tool provides a snapshot of where your organisation lies on the maturity model spectrum, with suggestions on how to grow in areas that need attention. It is not a rating or certification platform: we believe there is no "stamp of achievement" that an organisation can claim for "sufficient digital competence."
+
+We hope that this tool will support civil society organisations in becoming inspiring role-models and champions of digital competence in their communities, helping in the process our common mission of building a better, fairer, more socially just and kind world.
 
 ## Process overview
 
-![tutorial-1](/resources/digna-tutorial-1.gif)
 
-This is a self-evaluation webapp based on the concept of the maturity model, inspired by Linda Raftree's work on the [Responsible Data Maturity Model](https://lindaraftree.com/2019/10/17/a-responsible-data-maturity-model-for-non-profits/). The maturity model is self-reflective: instead of asking questions, it presents statements that describe a certain level of organisational maturity with regards to a category, like program development or infrastructure. Through a series of collaborative design rounds with audience representatives, the statements have been crafted and assigned to a _maturity level:_
+This is a self-evaluation app based on the concept of the maturity model, inspired by Linda Raftree's work on the [Responsible Data Maturity Model](https://lindaraftree.com/2019/10/17/a-responsible-data-maturity-model-for-non-profits/). The maturity model is self-reflective: instead of asking questions, it presents statements that describe a certain level of organisational maturity with regards to a category, like program development or infrastructure. Through a series of collaborative design rounds with audience representatives, the statements have been crafted and assigned to a _maturity level:_
 
 - Unaware
 - Ad-Hoc
@@ -27,33 +27,15 @@ For each statement, you are asked to express how much that statement resonates w
 - Very Much
 - Doesn't apply
 
-There are more than 200 statements, so the work of going through all of them is not easy. We did our best to simplify it: you can either choose to go through a random list of statements pertaining to a category, or you can drill down into a category and see all the statements pertaining to a maturity level.
-
-For best results, we recommend going through the evaluation tool with the support of a Diversity & Inclusion specialist, who will be able to guide you through the more complex bits and give you insight.
 
 ## Analysing your assessment
 
 The core feature of the website is a table where rows represent maturity categories, and columns represent maturity levels. On this overview, you can:
-
-#### See a snapshot of your current progress and deep dive into single categories:
-
-![tutorial-2](/resources/digna-tutorial-2.gif)
-
-#### Filter the results by diversity thematic areas:
-
-![tutorial-3](/resources/digna-tutorial-3.gif)
-
-#### Assign maturity goals for each category:
-
-![tutorial-4](/resources/digna-tutorial-4.gif)
-
-#### Save your progress:
-
-![tutorial-5](/resources/digna-tutorial-5.gif)
-
-#### Export your entire assessment as a PDF:
-
-![tutorial-6](/resources/digna-tutorial-6.gif)
+- See a snapshot of your current progress and deep dive into single categories
+- Filter the results by diversity thematic areas
+- Assign maturity goals for each category
+- Save your progress
+- Export your entire assessment as a PDF:
 
 ### Saving and exporting
 
@@ -107,7 +89,7 @@ Missing translations will fall back to english language.
 
 ### Storing user data
 
-No data is ever sent to the server. Answers and goals are stored to the client browser local storage so users can continue where they left and is cleared by clicking "Restart Assessment".
+No data is ever stored remotely. Answers and goals are stored in the client browser's local storage so users can continue where they left and is cleared by clicking "Restart Assessment".
 
 Users are able to export a code from the system that they can import on another computer or browser to share results or continue the assessment. The generated code is an export of all answers and goals in compressed base64 encoded format.
 
@@ -145,3 +127,9 @@ src/
 **Running the app locally**
 
 - run `yarn`
+
+---
+
+### Acknowledgments
+
+This tool was originally commissioned by [CIVICUS](https://www.civicus.org/) for their Diversity and Inclusion program [DIGNA](https://github.com/CIVICUSDIGNA/diversitytool). Development of the initial codebase was done by [INIT](https://init.hr/).

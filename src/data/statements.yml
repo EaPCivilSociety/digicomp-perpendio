@@ -1,300 +1,863 @@
+- category: comms
+  maturity_stage: unaware
+  statement:
+    en: >-
+      Our organisation doesn't take into account digital identities and online
+      reputation when creating content.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      Some members of the organisation have their own best practices for
+      managing online reputation and digital identity, but as a whole we don't
+      have policies or best practices.
+    fr: No content available yet.
+    es: No content available yet.
 - category: data-literacy
   maturity_stage: unaware
   statement:
-    en: '[UNAWARE] Example statement 1'
-    fr: '[UNAWARE] Example statement 1'
-    es: '[UNAWARE] Example statement 1'
-- category: data-literacy
-  maturity_stage: unaware
-  statement:
-    en: '[UNAWARE] Example statement 2'
-    fr: '[UNAWARE] Example statement 2'
-    es: '[UNAWARE] Example statement 2'
+    en: >-
+      When searching for information online, we use whatever search engine we
+      like the most.
+    fr: No content available yet.
+    es: No content available yet.
 - category: data-literacy
   maturity_stage: adhoc
   statement:
-    en: '[AD HOC] Example statement 1'
-    fr: '[AD HOC] Example statement 1'
-    es: '[AD HOC] Example statement 1'
+    en: >-
+      Some of our colleagues are more knowledgeable about advanced search
+      techniques, but as an organisation we don't have a structured approach to
+      searching data.
+    fr: No content available yet.
+    es: No content available yet.
+- category: data-literacy
+  maturity_stage: unaware
+  statement:
+    en: >-
+      Our organisation does not have policies or best practices for collecting,
+      storing and managing digital information
+    fr: No content available yet.
+    es: No content available yet.
 - category: data-literacy
   maturity_stage: adhoc
   statement:
-    en: '[AD HOC] Example statement 2'
-    fr: '[AD HOC] Example statement 2'
-    es: '[AD HOC] Example statement 2'
+    en: >-
+      While as an organisation we don't have a structured approach to storing
+      and managing data, some of our colleagues have more advanced skills.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: unaware
+  statement:
+    en: >-
+      Our organisation doesn't have policies or best practices for collaborating
+      through digital technologies
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      Some members of the organisation have their own best practices for
+      collaborating with digital technologies, but as a whole we don't have
+      policies or best practices.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: unaware
+  statement:
+    en: >-
+      When it comes to online sharing, we don't pay particular attention to
+      properly attribute content.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      Some people in our organisation are careful about sharing content and
+      appropriate attribution, but as a whole we don't have policies or best
+      practices around this.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are developing best practices for managing online reputation and
+      digital identity when creating content.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: mastering
+  statement:
+    en: >-
+      We have well defined and successfully implemented best practices for
+      managing online reputation and digital identity when creating content.
+    fr: No content available yet.
+    es: No content available yet.
+- category: data-literacy
+  maturity_stage: mastering
+  statement:
+    en: >-
+      We have staff guides for online search, and subscribe to specialised
+      search engines.
+    fr: No content available yet.
+    es: No content available yet.
 - category: data-literacy
   maturity_stage: developing
   statement:
-    en: '[DEVELOPING] Example statement 1'
-    fr: '[DEVELOPING] Example statement 1'
-    es: '[DEVELOPING] Example statement 1'
-- category: data-literacy
-  maturity_stage: developing
-  statement:
-    en: '[DEVELOPING] Example statement 2'
-    fr: '[DEVELOPING] Example statement 2'
-    es: '[DEVELOPING] Example statement 2'
+    en: >-
+      Our organisation is in the process of defining best practices for online
+      search, and we conduct staff trainings on search skills.
+    fr: No content available yet.
+    es: No content available yet.
 - category: data-literacy
   maturity_stage: mastering
   statement:
-    en: '[MASTERING] Example statement 1'
-    fr: '[MASTERING] Example statement 1'
-    es: '[MASTERING] Example statement 1'
+    en: >-
+      We have well-defined and successfully implemented best practices for
+      collecting, storing, and managing digital information
+    fr: No content available yet.
+    es: No content available yet.
+- category: data-literacy
+  maturity_stage: developing
+  statement:
+    en: >-
+      Our organisation is in the process of defining best practices for storing
+      and managing, and we conduct staff trainings on search skills.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: mastering
+  statement:
+    en: >-
+      We have well defined and successfully implemented best practices and
+      strategies for collaborating through digital technologies.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are developing best practices and strategies for collaborating through
+      digital technologies.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: mastering
+  statement:
+    en: >-
+      We have well defined and successfully implemented best practices around
+      sharing content, including appropriate attribution and referencing
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are developing best practices around sharing content, including
+      appropriate attribution and referencing
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our best practices for managing online reputation and digital identity
+      when creating content are used by our partners and peers; we conduct
+      trainings and capacity building for others.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      Some members of the organisation have advanced knowledge on using a
+      variety of formats, but we don't have broad organisational competence.
+    fr: No content available yet.
+    es: No content available yet.
+- category: data-literacy
+  maturity_stage: developing
+  statement:
+    en: >-
+      Our organisation is in the process of defining best practices for
+      evaluating and analysing data, and we conduct staff trainings on search
+      skills.
+    fr: No content available yet.
+    es: No content available yet.
+- category: data-literacy
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our guides and policies for advanced search techniques are shared and used
+      by our partners and peers; we conduct trainings and capacity building for
+      others.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      Some teammates have preferences and opinions on the best tech to use, but
+      as an organisation we don't capture that knowledge systematically.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are working on policies and best practices around selecting appropriate
+      technologies for communicating and collaborating.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: unaware
+  statement:
+    en: >-
+      Our organisation doesn't have policies or best practices for engaging with
+      diverse individuals.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are developing best practices for communication strategies that take
+      into account audience needs and diversity.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      Some members of the organisation participate and engage in participatory
+      citizenship and civic tech, but as a whole we don't have policies or best
+      practices.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are developing best practices and strategies for engaging in
+      participatory citizenship and civic tech.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are training our teams on using a variety of formats, including
+      attribution and accessibility, and developing organisational guidelines.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: unaware
+  statement:
+    en: 'When creating content, we use the most common formats like text, or images'
+    fr: No content available yet.
+    es: No content available yet.
+- category: data-literacy
+  maturity_stage: unaware
+  statement:
+    en: >-
+      Our organisation doesn't have policies or best practices for evaluating
+      and critically analysing online information.
+    fr: No content available yet.
+    es: No content available yet.
+- category: data-literacy
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      While as an organisation we don't have a structured approach to evaluating
+      and analysing data, some of our colleagues have more advanced skills.
+    fr: No content available yet.
+    es: No content available yet.
+- category: data-literacy
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our guides and policies for storing and managing information are shared
+      and used by our partners and peers; we conduct trainings and capacity
+      building for others.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: unaware
+  statement:
+    en: >-
+      Our organisation doesn't have policies or best practices for selecting and
+      using appropriate tech
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our best practices and strategies for collaborating through digital
+      technologgies are used by our partners and peers; we conduct trainings and
+      capacity building for others.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      Some members of the organisation take into account audience needs and
+      diversity when designing communication strategies, but as a whole we don't
+      have policies or best practices.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our best practices around sharing content, including appropriate
+      attribution and referencing, are used by our partners and peers; we
+      conduct trainings and capacity building for others
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: unaware
+  statement:
+    en: We do not engage in civic tech initiatives.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: mastering
+  statement:
+    en: >-
+      Our organisation has well defined and generally high understanding of, and
+      capacity with using, different formats, including accessibility.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our partners and peers turn to us for advice, training and capacity
+      building for using different formats, including accessibility.
+    fr: No content available yet.
+    es: No content available yet.
 - category: data-literacy
   maturity_stage: mastering
   statement:
-    en: '[MASTERING] Example statement 2'
-    fr: '[MASTERING] Example statement 2'
-    es: '[MASTERING] Example statement 2'
+    en: >-
+      All staff and leadership have had data literacy training, and we have
+      well-defined policies and best practices in evaluating and analysing data.
+    fr: No content available yet.
+    es: No content available yet.
 - category: data-literacy
   maturity_stage: leading
   statement:
-    en: '[LEADING] Example statement 1'
-    fr: '[LEADING] Example statement 1'
-    es: '[LEADING] Example statement 1'
-- category: data-literacy
+    en: >-
+      Our policies for analysing and evaluating data are shared and used by our
+      partners and peers; we conduct trainings and capacity building for others.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
   maturity_stage: leading
   statement:
-    en: '[LEADING] Example statement 2'
-    fr: '[LEADING] Example statement 2'
-    es: '[LEADING] Example statement 2'
-- category: communication
-  maturity_stage: unaware
-  statement:
-    en: '[UNAWARE] Example statement 1'
-    fr: '[UNAWARE] Example statement 1'
-    es: '[UNAWARE] Example statement 1'
-- category: communication
-  maturity_stage: unaware
-  statement:
-    en: '[UNAWARE] Example statement 2'
-    fr: '[UNAWARE] Example statement 2'
-    es: '[UNAWARE] Example statement 2'
-- category: communication
-  maturity_stage: adhoc
-  statement:
-    en: '[AD HOC] Example statement 1'
-    fr: '[AD HOC] Example statement 1'
-    es: '[AD HOC] Example statement 1'
-- category: communication
-  maturity_stage: adhoc
-  statement:
-    en: '[AD HOC] Example statement 2'
-    fr: '[AD HOC] Example statement 2'
-    es: '[AD HOC] Example statement 2'
-- category: communication
-  maturity_stage: developing
-  statement:
-    en: '[DEVELOPING] Example statement 1'
-    fr: '[DEVELOPING] Example statement 1'
-    es: '[DEVELOPING] Example statement 1'
-- category: communication
-  maturity_stage: developing
-  statement:
-    en: '[DEVELOPING] Example statement 2'
-    fr: '[DEVELOPING] Example statement 2'
-    es: '[DEVELOPING] Example statement 2'
-- category: communication
+    en: >-
+      Our guides and policies for selecting appropriate tech for communicating
+      and collaborating are used by our partners and peers; we conduct trainings
+      and capacity building for others.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
   maturity_stage: mastering
   statement:
-    en: '[MASTERING] Example statement 1'
-    fr: '[MASTERING] Example statement 1'
-    es: '[MASTERING] Example statement 1'
-- category: communication
+    en: >-
+      We have well-defined and successfully implemented best practices for
+      selecting appropriate technologies for communicating and collaborating.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
   maturity_stage: mastering
   statement:
-    en: '[MASTERING] Example statement 2'
-    fr: '[MASTERING] Example statement 2'
-    es: '[MASTERING] Example statement 2'
-- category: communication
+    en: >-
+      We have well defined and successfully implemented best practices for
+      communication strategies that take into account audience needs and
+      diversity.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
   maturity_stage: leading
   statement:
-    en: '[LEADING] Example statement 1'
-    fr: '[LEADING] Example statement 1'
-    es: '[LEADING] Example statement 1'
-- category: communication
+    en: >-
+      Our best practices and strategies for collaborating through digital
+      technologgies are used by our partners and peers; we conduct trainings and
+      capacity building for others.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
+  maturity_stage: mastering
+  statement:
+    en: >-
+      We have well defined and successfully implemented best practices and
+      strategies for engaging in participatory citizenship and civic tech.
+    fr: No content available yet.
+    es: No content available yet.
+- category: comms
   maturity_stage: leading
   statement:
-    en: '[LEADING] Example statement 2'
-    fr: '[LEADING] Example statement 2'
-    es: '[LEADING] Example statement 2'
+    en: >-
+      Our best practices and strategies for engaging in participatory
+      citizenship and civic tech are used by our partners and peers; we conduct
+      trainings and capacity building for others.
+    fr: No content available yet.
+    es: No content available yet.
 - category: content-creation
   maturity_stage: unaware
   statement:
-    en: '[UNAWARE] Example statement 1'
-    fr: '[UNAWARE] Example statement 1'
-    es: '[UNAWARE] Example statement 1'
+    en: >-
+      We don't generally create multi-format content such as data
+      visualizations, or use integrations (plugins, generative addons) when
+      creating content.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      Some members of the organisation have advanced skills with combining data
+      from various sources, and using tools to enhance our content, but we don't
+      have broad organisational competence.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are training our teams on modifying, refining, and integrating content
+      in different formats, from data visualisations to generative AI and
+      content-enhancing plugins.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: mastering
+  statement:
+    en: >-
+      Our organisation has well defined and generally high understanding of, and
+      capacity with modifying, refining, and integrating content in different
+      formats, from data visualisations to generative AI and content-enhancing
+      plugins.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our partners and peers turn to us for advice, training and capacity
+      building for modifying, refining, and integrating content in different
+      formats, from data visualisations to generative AI and content-enhancing
+      plugins.
+    fr: No content available yet.
+    es: No content available yet.
 - category: content-creation
   maturity_stage: unaware
   statement:
-    en: '[UNAWARE] Example statement 2'
-    fr: '[UNAWARE] Example statement 2'
-    es: '[UNAWARE] Example statement 2'
+    en: >-
+      We do not generally spend time considering licenses, attribution, or
+      copyright.
+    fr: No content available yet.
+    es: No content available yet.
 - category: content-creation
   maturity_stage: adhoc
   statement:
-    en: '[AD HOC] Example statement 1'
-    fr: '[AD HOC] Example statement 1'
-    es: '[AD HOC] Example statement 1'
+    en: >-
+      Some members of the organisation understand copyright and licensing
+      repercussions on our content creation, but we don't have broad
+      organisational competence.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are developing best practices and strategies on copyright and
+      licensing.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: mastering
+  statement:
+    en: >-
+      Our organisation has well defined and successfully implemented best
+      practices and strategies on copyright and licensing.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our best practices and strategies for copyright and licensing are used by
+      our partners and peers; we conduct trainings and capacity building for
+      others.
+    fr: No content available yet.
+    es: No content available yet.
+- category: content-creation
+  maturity_stage: unaware
+  statement:
+    en: "We do not have programmers on staff, and don't code."
+    fr: No content available yet.
+    es: No content available yet.
 - category: content-creation
   maturity_stage: adhoc
   statement:
-    en: '[AD HOC] Example statement 2'
-    fr: '[AD HOC] Example statement 2'
-    es: '[AD HOC] Example statement 2'
+    en: >-
+      Some members of the organisation have programming skills, but we don't
+      have broad organisational competence.
+    fr: No content available yet.
+    es: No content available yet.
 - category: content-creation
   maturity_stage: developing
   statement:
-    en: '[DEVELOPING] Example statement 1'
-    fr: '[DEVELOPING] Example statement 1'
-    es: '[DEVELOPING] Example statement 1'
-- category: content-creation
-  maturity_stage: developing
-  statement:
-    en: '[DEVELOPING] Example statement 2'
-    fr: '[DEVELOPING] Example statement 2'
-    es: '[DEVELOPING] Example statement 2'
+    en: We are actively training our teams on programming skills.
+    fr: No content available yet.
+    es: No content available yet.
 - category: content-creation
   maturity_stage: mastering
   statement:
-    en: '[MASTERING] Example statement 1'
-    fr: '[MASTERING] Example statement 1'
-    es: '[MASTERING] Example statement 1'
-- category: content-creation
-  maturity_stage: mastering
-  statement:
-    en: '[MASTERING] Example statement 2'
-    fr: '[MASTERING] Example statement 2'
-    es: '[MASTERING] Example statement 2'
+    en: Our team members are on average competend coders.
+    fr: No content available yet.
+    es: No content available yet.
 - category: content-creation
   maturity_stage: leading
   statement:
-    en: '[LEADING] Example statement 1'
-    fr: '[LEADING] Example statement 1'
-    es: '[LEADING] Example statement 1'
-- category: content-creation
-  maturity_stage: leading
-  statement:
-    en: '[LEADING] Example statement 2'
-    fr: '[LEADING] Example statement 2'
-    es: '[LEADING] Example statement 2'
+    en: >-
+      Our partners and peers turn to us for advice, training, and capacity
+      building to increase their coding skills.
+    fr: No content available yet.
+    es: No content available yet.
 - category: safety
   maturity_stage: unaware
   statement:
-    en: '[UNAWARE] Example statement 1'
-    fr: '[UNAWARE] Example statement 1'
-    es: '[UNAWARE] Example statement 1'
+    en: We don't have organisational policies around device security.
+    fr: No content available yet.
+    es: No content available yet.
+- category: safety
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      Some of our colleagues are more knowledgeable about device security, but
+      we don't have broad organisational competence.
+    fr: No content available yet.
+    es: No content available yet.
+- category: safety
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are actively training our teams in device security, and developing
+      security policies.
+    fr: No content available yet.
+    es: No content available yet.
+- category: safety
+  maturity_stage: mastering
+  statement:
+    en: >-
+      Our organisation has well defined and successfully implemented best
+      practices and policies for device security.
+    fr: No content available yet.
+    es: No content available yet.
+- category: safety
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our best practices and policies for device security and safety are used by
+      our partners and peers; we conduct trainings and capacity building for
+      others.
+    fr: No content available yet.
+    es: No content available yet.
 - category: safety
   maturity_stage: unaware
   statement:
-    en: '[UNAWARE] Example statement 2'
-    fr: '[UNAWARE] Example statement 2'
-    es: '[UNAWARE] Example statement 2'
+    en: We don't have organisational policies around personal data and privacy.
+    fr: No content available yet.
+    es: No content available yet.
 - category: safety
   maturity_stage: adhoc
   statement:
-    en: '[AD HOC] Example statement 1'
-    fr: '[AD HOC] Example statement 1'
-    es: '[AD HOC] Example statement 1'
+    en: >-
+      Some of our colleagues are more knowledgeable about protecting personal
+      data and online privacy, but we don't have broad organisational
+      competence.
+    fr: No content available yet.
+    es: No content available yet.
+- category: safety
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are actively training our teams in protecting personal data and online
+      privacy, and developing security policies.
+    fr: No content available yet.
+    es: No content available yet.
+- category: safety
+  maturity_stage: mastering
+  statement:
+    en: >-
+      Our organisation has well defined and successfully implemented best
+      practices and policies for protecting personal data and online privacy.
+    fr: No content available yet.
+    es: No content available yet.
+- category: safety
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our best practices and policies for protecting personal data and online
+      privacy are used by our partners and peers; we conduct trainings and
+      capacity building for others.
+    fr: No content available yet.
+    es: No content available yet.
+- category: safety
+  maturity_stage: unaware
+  statement:
+    en: >-
+      As an organisation, we do not have best practices to protect our team's
+      mental health when engaging online.
+    fr: No content available yet.
+    es: No content available yet.
 - category: safety
   maturity_stage: adhoc
   statement:
-    en: '[AD HOC] Example statement 2'
-    fr: '[AD HOC] Example statement 2'
-    es: '[AD HOC] Example statement 2'
+    en: >-
+      Some of our colleagues are more knowledgeable about protecting themselves
+      online from bullying and harassment, but we don't have broad
+      organisational competence.
+    fr: No content available yet.
+    es: No content available yet.
 - category: safety
   maturity_stage: developing
   statement:
-    en: '[DEVELOPING] Example statement 1'
-    fr: '[DEVELOPING] Example statement 1'
-    es: '[DEVELOPING] Example statement 1'
+    en: >-
+      We are developing best practices and policies on protecting our team's
+      well-being and mental health from online harassment, and are designing
+      support resources.
+    fr: No content available yet.
+    es: No content available yet.
+- category: safety
+  maturity_stage: mastering
+  statement:
+    en: >-
+      Our organisation has well defined and successfully implemented best
+      practices and policies on protecting our team's well-being and mental
+      health from online harassment, including access to mental health
+      specialists.
+    fr: No content available yet.
+    es: No content available yet.
+- category: safety
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our partners and peers turn to us for advice and support on protecting
+      their team's well-being and mental health from online harassment.
+    fr: No content available yet.
+    es: No content available yet.
+- category: safety
+  maturity_stage: unaware
+  statement:
+    en: >-
+      We don't intentionally consider the environment when engaging with
+      technologies.
+    fr: No content available yet.
+    es: No content available yet.
+- category: safety
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      Some of our colleagues are more knowledgeable about the environmental
+      impact of technologies we use, but we don't have broad organisational
+      competence.
+    fr: No content available yet.
+    es: No content available yet.
 - category: safety
   maturity_stage: developing
   statement:
-    en: '[DEVELOPING] Example statement 2'
-    fr: '[DEVELOPING] Example statement 2'
-    es: '[DEVELOPING] Example statement 2'
+    en: >-
+      We are developing best practices and policies on choosing and using
+      technologies that respect the planet and safeguard the environment.
+    fr: No content available yet.
+    es: No content available yet.
 - category: safety
   maturity_stage: mastering
   statement:
-    en: '[MASTERING] Example statement 1'
-    fr: '[MASTERING] Example statement 1'
-    es: '[MASTERING] Example statement 1'
-- category: safety
-  maturity_stage: mastering
-  statement:
-    en: '[MASTERING] Example statement 2'
-    fr: '[MASTERING] Example statement 2'
-    es: '[MASTERING] Example statement 2'
+    en: >-
+      Our organisation has well defined and successfully implemented best
+      practices and policies on choosing and using technologies that respect the
+      planet and safeguard the environment.
+    fr: No content available yet.
+    es: No content available yet.
 - category: safety
   maturity_stage: leading
   statement:
-    en: '[LEADING] Example statement 1'
-    fr: '[LEADING] Example statement 1'
-    es: '[LEADING] Example statement 1'
-- category: safety
-  maturity_stage: leading
-  statement:
-    en: '[LEADING] Example statement 2'
-    fr: '[LEADING] Example statement 2'
-    es: '[LEADING] Example statement 2'
+    en: >-
+      Our best practices and policies on choosing and using technologies that
+      respect the planet and safeguard the environment are referenced by our
+      partners and peers; we conduct trainings and capacity building for others.
+    fr: No content available yet.
+    es: No content available yet.
 - category: problem-solving
   maturity_stage: unaware
   statement:
-    en: '[UNAWARE] Example statement 1'
-    fr: '[UNAWARE] Example statement 1'
-    es: '[UNAWARE] Example statement 1'
+    en: We rely on external help with troubleshooting technical issues.
+    fr: No content available yet.
+    es: No content available yet.
+- category: problem-solving
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      Some of our colleagues have strong technical skills and can troubleshoot
+      and fix issues with our technokogy, but we don't have broad organisational
+      competence.
+    fr: No content available yet.
+    es: No content available yet.
+- category: problem-solving
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are actively training our teams to become better at autonomously
+      troubleshooting and solving problem,s with our technology.
+    fr: No content available yet.
+    es: No content available yet.
+- category: problem-solving
+  maturity_stage: mastering
+  statement:
+    en: >-
+      Our teams are on average capable to autonomously troubleshoot and solve
+      problems with the technology they use. We have handbooks and guides to
+      help them.
+    fr: No content available yet.
+    es: No content available yet.
+- category: problem-solving
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our partners and peers turn to us for advice and support when
+      troubleshooting and solving problems with the technology they use. We
+      share our handbooks and guides to help them.
+    fr: No content available yet.
+    es: No content available yet.
 - category: problem-solving
   maturity_stage: unaware
   statement:
-    en: '[UNAWARE] Example statement 2'
-    fr: '[UNAWARE] Example statement 2'
-    es: '[UNAWARE] Example statement 2'
+    en: >-
+      We rely on external support to help us identify our needs and evaluate and
+      select the appropriate technology.
+    fr: No content available yet.
+    es: No content available yet.
 - category: problem-solving
   maturity_stage: adhoc
   statement:
-    en: '[AD HOC] Example statement 1'
-    fr: '[AD HOC] Example statement 1'
-    es: '[AD HOC] Example statement 1'
+    en: >-
+      Some of our colleagues are capable of identifying needs and evaluating and
+      selecting appropriate tech solutions, but we don't have broad
+      organisational competence.
+    fr: No content available yet.
+    es: No content available yet.
+- category: problem-solving
+  maturity_stage: developing
+  statement:
+    en: >-
+      We are building capacity of our teams to be on average more self-reliant
+      and autonomous when it comes to assessing needs and evaluating and
+      selecting appropriate tech solutions.
+    fr: No content available yet.
+    es: No content available yet.
+- category: problem-solving
+  maturity_stage: mastering
+  statement:
+    en: >-
+      Our teams are on average capable to self-assess needs and evaluate and
+      select appropriate tech solutions.
+    fr: No content available yet.
+    es: No content available yet.
+- category: problem-solving
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our partners and peers turn to us when they need support assessing needs
+      and evaluating and selecting appropriate tech solutions.
+    fr: No content available yet.
+    es: No content available yet.
+- category: problem-solving
+  maturity_stage: unaware
+  statement:
+    en: We tend to stick to the tech tools we know.
+    fr: No content available yet.
+    es: No content available yet.
 - category: problem-solving
   maturity_stage: adhoc
   statement:
-    en: '[AD HOC] Example statement 2'
-    fr: '[AD HOC] Example statement 2'
-    es: '[AD HOC] Example statement 2'
+    en: >-
+      Some of our colleagues explore innovative tech tools and innovations, but
+      we don't have broad organisational competence.
+    fr: No content available yet.
+    es: No content available yet.
 - category: problem-solving
   maturity_stage: developing
   statement:
-    en: '[DEVELOPING] Example statement 1'
-    fr: '[DEVELOPING] Example statement 1'
-    es: '[DEVELOPING] Example statement 1'
+    en: >-
+      We are developing best practices and policies on exploring innovative and
+      unexpected ways to use technology in our organisation, and providing teams
+      with resources to explore and try new things.
+    fr: No content available yet.
+    es: No content available yet.
+- category: problem-solving
+  maturity_stage: mastering
+  statement:
+    en: >-
+      Our organisation has well defined and successfully implemented best
+      practices and policies for innovation in technology, including responsible
+      data guidelines and innovation budgets.
+    fr: No content available yet.
+    es: No content available yet.
+- category: problem-solving
+  maturity_stage: leading
+  statement:
+    en: >-
+      Our partners and peers turn to us for creative and innovative solutions;
+      we conduct trainings and capacity buidling for others.
+    fr: No content available yet.
+    es: No content available yet.
+- category: problem-solving
+  maturity_stage: unaware
+  statement:
+    en: We are generally self-reliant when learning about new tools.
+    fr: No content available yet.
+    es: No content available yet.
+- category: problem-solving
+  maturity_stage: adhoc
+  statement:
+    en: >-
+      Some of our colleagues engage in learning of technology for personal
+      growth, but we don't have broad organisational competence.
+    fr: No content available yet.
+    es: No content available yet.
 - category: problem-solving
   maturity_stage: developing
   statement:
-    en: '[DEVELOPING] Example statement 2'
-    fr: '[DEVELOPING] Example statement 2'
-    es: '[DEVELOPING] Example statement 2'
+    en: >-
+      We are developing organisational resources for assessing digital
+      competence gaps and engage in capacity building.
+    fr: No content available yet.
+    es: No content available yet.
 - category: problem-solving
   maturity_stage: mastering
   statement:
-    en: '[MASTERING] Example statement 1'
-    fr: '[MASTERING] Example statement 1'
-    es: '[MASTERING] Example statement 1'
-- category: problem-solving
-  maturity_stage: mastering
-  statement:
-    en: '[MASTERING] Example statement 2'
-    fr: '[MASTERING] Example statement 2'
-    es: '[MASTERING] Example statement 2'
+    en: >-
+      We have well defined and successfully implemented organisational resources
+      for assessing digital competence gaps and engage in capacity building.
+    fr: No content available yet.
+    es: No content available yet.
 - category: problem-solving
   maturity_stage: leading
   statement:
-    en: '[LEADING] Example statement 1'
-    fr: '[LEADING] Example statement 1'
-    es: '[LEADING] Example statement 1'
-- category: problem-solving
-  maturity_stage: leading
-  statement:
-    en: '[LEADING] Example statement 2'
-    fr: '[LEADING] Example statement 2'
-    es: '[LEADING] Example statement 2'
+    en: >-
+      Our resources and best practices for assessing digital competence gaps and
+      engage in organisational capacity building are used by our partners and
+      peers; they turn to us for advice and support.
+    fr: No content available yet.
+    es: No content available yet.

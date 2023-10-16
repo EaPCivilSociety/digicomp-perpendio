@@ -3,9 +3,11 @@
     name: Information and data literacy
     description: >-
       To articulate information needs, to locate and retrieve digital data,
-      information and content. \n To judge the relevance of the source and its
-      content. \n To store, manage, and organise digital data, information and
-      content.
+      information and content.
+
+      To judge the relevance of the source and its content.
+
+      To store, manage, and organise digital data, information and content.
   fr:
     name: Information and data literacy
     description: >-
@@ -20,15 +22,17 @@
       information and content. \n To judge the relevance of the source and its
       content. \n To store, manage, and organise digital data, information and
       content.
-- id: communication
+- id: comms
   en:
     name: Communication and collaboration
     description: >-
       To interact, communicate and collaborate through digital technologies
-      while being aware of cultural and generational diversity. \n To
-      participate in society through public and private digital services and
-      participatory citizenship \n To manage one's digital presence, identity
-      and reputation.
+      while being aware of cultural and generational diversity.
+
+      To participate in society through public and private digital services and
+      participatory citizenship
+
+      To manage one's digital presence, identity and reputation.
   fr:
     name: Communication and collaboration
     description: >-
@@ -49,10 +53,13 @@
   en:
     name: Digital content creation
     description: >-
-      To create and edit digital content. \n To improve and integrate
-      information and content into an existing body of knowledge while
-      understanding how copyright and licenses are to be applied. \n To know how
-      to give understandable instructions for a computer system.
+      To create and edit digital content.
+
+      To improve and integrate information and content into an existing body of
+      knowledge while understanding how copyright and licenses are to be
+      applied.
+
+      To know how to give understandable instructions for a computer system.
   fr:
     name: Digital content creation
     description: >-
@@ -72,10 +79,13 @@
     name: Safety
     description: >-
       To protect devices, content, personal data and privacy in digital
-      environments. \n To protect physical and psychological health, and to be
-      aware of digital technologies for social well-being and social inclusion.
-      \n To be aware of the environmental impact of digital technologies and
-      their use.
+      environments.
+
+      To protect physical and psychological health, and to be aware of digital
+      technologies for social well-being and social inclusion.
+
+      To be aware of the environmental impact of digital technologies and their
+      use.
   fr:
     name: Safety
     description: >-
@@ -97,9 +107,11 @@
     name: Problem solving
     description: >-
       To identify needs and problems, and to resolve conceptual problems and
-      problem situations in digital environments. \n To use digital tools to
-      innovate processes and products. \n To keep up to date with the digital
-      evolution.
+      problem situations in digital environments.
+
+      To use digital tools to innovate processes and products.
+
+      To keep up to date with the digital evolution.
   fr:
     name: Problem solving
     description: >-

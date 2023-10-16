@@ -1,60 +1,210 @@
-- id: General
+- id: searching data
   en:
-    name: General
+    name: searching data
     description: No content available yet.
   fr:
-    name: Généralités
+    name: No content available yet.
     description: No content available yet.
   es:
-    name: General
+    name: No content available yet.
     description: No content available yet.
-- id: 'Ability, physical & mental health'
+- id: evaluating data
   en:
-    name: 'Ability, physical & mental health'
+    name: evaluating data
     description: No content available yet.
   fr:
-    name: 'Aptitude, santé physique et mentale'
+    name: No content available yet.
     description: No content available yet.
   es:
-    name: 'Habilidad, salud física y mental'
+    name: No content available yet.
     description: No content available yet.
-- id: Gender and sexuality
+- id: managing data
   en:
-    name: Gender and sexuality
+    name: managing data
     description: No content available yet.
   fr:
-    name: Genre et sexualité
+    name: No content available yet.
     description: No content available yet.
   es:
-    name: Género y sexualidad
+    name: No content available yet.
     description: No content available yet.
-- id: Religion
+- id: choosing tech
   en:
-    name: Religion
+    name: choosing tech
     description: No content available yet.
   fr:
-    name: Religion
+    name: No content available yet.
     description: No content available yet.
   es:
-    name: Religión
+    name: No content available yet.
     description: No content available yet.
-- id: Socio-economic status
+- id: online sharing
   en:
-    name: Socio-economic status
+    name: online sharing
     description: No content available yet.
   fr:
-    name: Statut socio-économique
+    name: No content available yet.
     description: No content available yet.
   es:
-    name: Condición socioeconómica
+    name: No content available yet.
     description: No content available yet.
-- id: 'Race, caste, and ethnicites'
+- id: civic tech
   en:
-    name: 'Race, caste, and ethnicites'
+    name: civic tech
     description: No content available yet.
   fr:
-    name: 'Race, caste et ethnies'
+    name: No content available yet.
     description: No content available yet.
   es:
-    name: 'Raza, casta y etnia'
+    name: No content available yet.
+    description: No content available yet.
+- id: collaboration
+  en:
+    name: collaboration
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: netiquette
+  en:
+    name: netiquette
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: digital identity
+  en:
+    name: digital identity
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: formats
+  en:
+    name: formats
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: content integration
+  en:
+    name: content integration
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: copyright
+  en:
+    name: copyright
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: programming
+  en:
+    name: programming
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: device safety
+  en:
+    name: device safety
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: personal privacy
+  en:
+    name: personal privacy
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: well-being
+  en:
+    name: well-being
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: environment
+  en:
+    name: environment
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: tech support
+  en:
+    name: tech support
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: identifying tech
+  en:
+    name: identifying tech
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: innovative tech
+  en:
+    name: innovative tech
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
+    description: No content available yet.
+- id: competence gaps
+  en:
+    name: competence gaps
+    description: No content available yet.
+  fr:
+    name: No content available yet.
+    description: No content available yet.
+  es:
+    name: No content available yet.
     description: No content available yet.

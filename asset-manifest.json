@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://digicomp.perpend.io/static/css/main.624fee54.chunk.css",
-    "main.js": "https://digicomp.perpend.io/static/js/main.49d36738.chunk.js",
-    "main.js.map": "https://digicomp.perpend.io/static/js/main.49d36738.chunk.js.map",
+    "main.js": "https://digicomp.perpend.io/static/js/main.8ef807b1.chunk.js",
+    "main.js.map": "https://digicomp.perpend.io/static/js/main.8ef807b1.chunk.js.map",
     "runtime-main.js": "https://digicomp.perpend.io/static/js/runtime-main.771ddae0.js",
     "runtime-main.js.map": "https://digicomp.perpend.io/static/js/runtime-main.771ddae0.js.map",
     "static/js/2.18067a34.chunk.js": "https://digicomp.perpend.io/static/js/2.18067a34.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "https://digicomp.perpend.io/index.html",
     "static/css/main.624fee54.chunk.css.map": "https://digicomp.perpend.io/static/css/main.624fee54.chunk.css.map",
     "static/js/2.18067a34.chunk.js.LICENSE.txt": "https://digicomp.perpend.io/static/js/2.18067a34.chunk.js.LICENSE.txt",
-    "static/js/main.49d36738.chunk.js.LICENSE.txt": "https://digicomp.perpend.io/static/js/main.49d36738.chunk.js.LICENSE.txt",
+    "static/js/main.8ef807b1.chunk.js.LICENSE.txt": "https://digicomp.perpend.io/static/js/main.8ef807b1.chunk.js.LICENSE.txt",
     "static/media/arrow-left-white.5c0b93db.svg": "https://digicomp.perpend.io/static/media/arrow-left-white.5c0b93db.svg",
     "static/media/arrow-right.b58e49cc.svg": "https://digicomp.perpend.io/static/media/arrow-right.b58e49cc.svg",
     "static/media/cc.096670ac.svg": "https://digicomp.perpend.io/static/media/cc.096670ac.svg",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.771ddae0.js",
     "static/js/2.18067a34.chunk.js",
     "static/css/main.624fee54.chunk.css",
-    "static/js/main.49d36738.chunk.js"
+    "static/js/main.8ef807b1.chunk.js"
   ]
 }

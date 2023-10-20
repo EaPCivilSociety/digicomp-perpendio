@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslations } from 'i18n';
 import {
   HowToOne,
-  HowToThree,
+  // HowToThree,
   HowToTwo,
   HowToFour,
   HowToFive,

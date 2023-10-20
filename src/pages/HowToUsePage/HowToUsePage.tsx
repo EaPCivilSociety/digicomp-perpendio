@@ -77,8 +77,8 @@ const HowToUsePage = () => {
       <h4>{t('howToUseSeeASnapshot')}</h4>
       <img src={HowToTwo} alt="" className="img-fluid howto-image" />
 
-      <h4>{t('howToUseFilterTheResultsByDiveristy')}</h4>
-      <img src={HowToThree} alt="" className="img-fluid howto-image" />
+      {/* <h4>{t('howToUseFilterTheResultsByDiveristy')}</h4>
+      <img src={HowToThree} alt="" className="img-fluid howto-image" /> */}
 
       <h4>{t('howToUseAssignMaturityGoals')}</h4>
       <img src={HowToFour} alt="" className="img-fluid howto-image" />

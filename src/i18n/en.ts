@@ -116,7 +116,7 @@ export const en = {
   resultsFinishedStatements: 'Finished statements',
   howToUsePageTitle: 'How to use',
   howToUseIntro:
-    'This is a self-evaluation tool based on the concept of the maturity model, inspired by Linda Raftrees work on the <a href="https://lindaraftree.com/2019/10/17/a-responsible-data-maturity-model-for-non-profits/">Responsible Data Maturity Model</a>. The maturity model is self-reflective: instead of asking questions, it presents statements that describe a certain level of organisational maturity with regards to a category. The statements have been crafted and assigned to a maturity level:',
+    'This is a self-evaluation tool based on the concept of the maturity model, inspired by Linda Raftree’s work on the <a href="https://lindaraftree.com/2019/10/17/a-responsible-data-maturity-model-for-non-profits/">Responsible Data Maturity Model</a>. The maturity model is self-reflective: instead of asking questions, it presents statements that describe a certain level of organisational maturity with regards to a category. The statements have been crafted and assigned to a maturity level:',
   howToUseListA1:
     '<strong>Unaware: </strong> <i>We don’t know what we don’t know</i>',
   howToUseListA2:

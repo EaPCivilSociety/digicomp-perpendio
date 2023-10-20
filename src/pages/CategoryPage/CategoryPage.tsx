@@ -7,7 +7,7 @@ import { getResults } from 'store/results';
 import { getCategories } from 'store/categories';
 import Categories from 'components/Categories/Categories';
 import CategoryAnswered from 'components/Categories/CategoryAnswered';
-import Filters from 'components/Categories/Filters';
+// import Filters from 'components/Categories/Filters';
 import GoalButtonToggle from 'components/Goals/GoalButtonToggle';
 import GoalButton from 'components/Goals/GoalButton';
 import { maturityLevels } from 'data';
@@ -26,7 +26,10 @@ const Categorypage = () => {
   const statements = useSelector(getStatements);
 
   const showResults = !_.isEmpty(results);
-  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  // remember to remove the bottom version and re-add the commented out version
+  // when adding back the tag selection
+  // const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const [selectedTags] = useState<string[]>([]);
 
   const [modalVisbility, toggleModal] = useToggle(false);
   const [exportModalVisibility, toggleExportModal] = useToggle(false);
@@ -82,7 +85,7 @@ const Categorypage = () => {
       )}
       {showResults && (
         <>
-          <Filters onChange={(tags) => setSelectedTags(tags)} />
+          {/* <Filters onChange={(tags) => setSelectedTags(tags)} /> */}
           <div className="goals">
             <div className="goals-left">
               <GoalButtonToggle />

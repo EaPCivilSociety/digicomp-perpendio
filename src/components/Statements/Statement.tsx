@@ -3,6 +3,7 @@ import React, { memo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import classNames from 'classnames';
 import { AnimatePresence, motion } from 'framer-motion';
+import Tooltip from 'components/Tooltip/Tooltip';
 
 import { DEFAULT_LANGUAGE, getSelectedLanguage } from 'store/languages';
 import { Answer, Statement } from 'store/statements';
@@ -32,10 +33,15 @@ const StatementCmp = ({ statement, answered }: StatementProps) => {
     }
   };
 
-  const getTagTranslation = (tag: string): string => {
-    const tagTranslation = tags.filter((tt: any) => tt.id === tag)[0];
+  // const getTagTranslation = (tag: string): string => {
+  //   const tagTranslation = tags.filter((tt: any) => tt.id === tag)[0];
 
-    return tagTranslation ? tagTranslation[language.id]?.name : '';
+  //   return tagTranslation ? tagTranslation[language.id]?.name : '';
+  // };
+
+  const getTag = (tag: any): any => {
+    const tagFromTags = tags.filter((tt: any) => tt.id === tag)[0];
+    return tagFromTags;
   };
 
   return (
@@ -104,10 +110,20 @@ const StatementCmp = ({ statement, answered }: StatementProps) => {
         </button>
       </div>
       <ul className="question-card-tags">
-        {statement?.tags &&
+        {/* {statement?.tags &&
           statement?.tags.map((tag: string, index: number) => (
-            <li key={index}>{getTagTranslation(tag)}</li>
-          ))}
+            <li key={index}>{getTag(tag)}</li>
+          ))} */}
+        {/* {statement?.tags && <li>{statement.tags}</li>} */}
+        {statement?.tags && (
+          <li>
+            <Tooltip
+              key={getTag(statement.tags).en.id}
+              title={getTag(statement.tags).en.name}
+              tooltip={getTag(statement.tags).en.description}
+            />
+          </li>
+        )}
       </ul>
     </motion.div>
   );

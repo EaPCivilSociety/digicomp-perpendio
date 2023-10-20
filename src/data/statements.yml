@@ -1,5 +1,6 @@
 - category: comms
   maturity_stage: unaware
+  tags: digital identity
   statement:
     en: >-
       Our organisation doesn't take into account digital identities and online
@@ -8,6 +9,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: adhoc
+  tags: digital identity
   statement:
     en: >-
       Some members of the organisation have their own best practices for
@@ -17,6 +19,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: unaware
+  tags: searching data
   statement:
     en: >-
       When searching for information online, we use whatever search engine we
@@ -25,6 +28,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: adhoc
+  tags: searching data
   statement:
     en: >-
       Some of our colleagues are more knowledgeable about advanced search
@@ -34,6 +38,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: unaware
+  tags: managing data
   statement:
     en: >-
       Our organisation does not have policies or best practices for collecting,
@@ -42,6 +47,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: adhoc
+  tags: managing data
   statement:
     en: >-
       While as an organisation we don't have a structured approach to storing
@@ -50,14 +56,16 @@
     es: No content available yet.
 - category: comms
   maturity_stage: unaware
+  tags: collaboration
   statement:
     en: >-
       Our organisation doesn't have policies or best practices for collaborating
-      through digital technologies
+      through digital technologies.
     fr: No content available yet.
     es: No content available yet.
 - category: comms
   maturity_stage: adhoc
+  tags: collaboration
   statement:
     en: >-
       Some members of the organisation have their own best practices for
@@ -67,6 +75,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: unaware
+  tags: online sharing
   statement:
     en: >-
       When it comes to online sharing, we don't pay particular attention to
@@ -75,6 +84,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: adhoc
+  tags: online sharing
   statement:
     en: >-
       Some people in our organisation are careful about sharing content and
@@ -84,6 +94,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: developing
+  tags: digital identity
   statement:
     en: >-
       We are developing best practices for managing online reputation and
@@ -92,6 +103,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: mastering
+  tags: digital identity
   statement:
     en: >-
       We have well defined and successfully implemented best practices for
@@ -100,6 +112,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: mastering
+  tags: searching data
   statement:
     en: >-
       We have staff guides for online search, and subscribe to specialised
@@ -108,6 +121,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: developing
+  tags: searching data
   statement:
     en: >-
       Our organisation is in the process of defining best practices for online
@@ -116,6 +130,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: mastering
+  tags: managing data
   statement:
     en: >-
       We have well-defined and successfully implemented best practices for
@@ -124,6 +139,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: developing
+  tags: managing data
   statement:
     en: >-
       Our organisation is in the process of defining best practices for storing
@@ -132,6 +148,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: mastering
+  tags: collaboration
   statement:
     en: >-
       We have well defined and successfully implemented best practices and
@@ -140,6 +157,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: developing
+  tags: collaboration
   statement:
     en: >-
       We are developing best practices and strategies for collaborating through
@@ -148,6 +166,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: mastering
+  tags: online sharing
   statement:
     en: >-
       We have well defined and successfully implemented best practices around
@@ -156,6 +175,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: developing
+  tags: online sharing
   statement:
     en: >-
       We are developing best practices around sharing content, including
@@ -164,6 +184,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: leading
+  tags: digital identity
   statement:
     en: >-
       Our best practices for managing online reputation and digital identity
@@ -173,6 +194,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: adhoc
+  tags: formats
   statement:
     en: >-
       Some members of the organisation have advanced knowledge on using a
@@ -181,6 +203,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: developing
+  tags: evaluating data
   statement:
     en: >-
       Our organisation is in the process of defining best practices for
@@ -190,6 +213,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: leading
+  tags: searching data
   statement:
     en: >-
       Our guides and policies for advanced search techniques are shared and used
@@ -199,14 +223,17 @@
     es: No content available yet.
 - category: comms
   maturity_stage: adhoc
+  tags: choosing tech
   statement:
     en: >-
-      Some teammates have preferences and opinions on the best tech to use, but
-      as an organisation we don't capture that knowledge systematically.
+      Some teammates have preferences and opinions on the best tech to use for
+      communicating and collaborating, but as an organisation we don't capture
+      that knowledge systematically.
     fr: No content available yet.
     es: No content available yet.
 - category: comms
   maturity_stage: developing
+  tags: choosing tech
   statement:
     en: >-
       We are working on policies and best practices around selecting appropriate
@@ -215,6 +242,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: unaware
+  tags: netiquette
   statement:
     en: >-
       Our organisation doesn't have policies or best practices for engaging with
@@ -223,6 +251,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: developing
+  tags: netiquette
   statement:
     en: >-
       We are developing best practices for communication strategies that take
@@ -231,6 +260,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: adhoc
+  tags: civic tech
   statement:
     en: >-
       Some members of the organisation participate and engage in participatory
@@ -240,6 +270,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: developing
+  tags: civic tech
   statement:
     en: >-
       We are developing best practices and strategies for engaging in
@@ -248,6 +279,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: developing
+  tags: formats
   statement:
     en: >-
       We are training our teams on using a variety of formats, including
@@ -256,12 +288,14 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: unaware
+  tags: formats
   statement:
     en: 'When creating content, we use the most common formats like text, or images'
     fr: No content available yet.
     es: No content available yet.
 - category: data-literacy
   maturity_stage: unaware
+  tags: evaluating data
   statement:
     en: >-
       Our organisation doesn't have policies or best practices for evaluating
@@ -270,6 +304,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: adhoc
+  tags: evaluating data
   statement:
     en: >-
       While as an organisation we don't have a structured approach to evaluating
@@ -278,6 +313,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: leading
+  tags: managing data
   statement:
     en: >-
       Our guides and policies for storing and managing information are shared
@@ -287,23 +323,26 @@
     es: No content available yet.
 - category: comms
   maturity_stage: unaware
+  tags: choosing tech
   statement:
     en: >-
       Our organisation doesn't have policies or best practices for selecting and
-      using appropriate tech
+      using appropriate tech for communicating and collaborating.
     fr: No content available yet.
     es: No content available yet.
 - category: comms
   maturity_stage: leading
+  tags: collaboration
   statement:
     en: >-
       Our best practices and strategies for collaborating through digital
-      technologgies are used by our partners and peers; we conduct trainings and
+      technologies are used by our partners and peers; we conduct trainings and
       capacity building for others.
     fr: No content available yet.
     es: No content available yet.
 - category: comms
   maturity_stage: adhoc
+  tags: netiquette
   statement:
     en: >-
       Some members of the organisation take into account audience needs and
@@ -313,6 +352,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: leading
+  tags: online sharing
   statement:
     en: >-
       Our best practices around sharing content, including appropriate
@@ -322,12 +362,14 @@
     es: No content available yet.
 - category: comms
   maturity_stage: unaware
+  tags: civic tech
   statement:
     en: We do not engage in civic tech initiatives.
     fr: No content available yet.
     es: No content available yet.
 - category: content-creation
   maturity_stage: mastering
+  tags: formats
   statement:
     en: >-
       Our organisation has well defined and generally high understanding of, and
@@ -336,6 +378,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: leading
+  tags: formats
   statement:
     en: >-
       Our partners and peers turn to us for advice, training and capacity
@@ -344,6 +387,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: mastering
+  tags: evaluating data
   statement:
     en: >-
       All staff and leadership have had data literacy training, and we have
@@ -352,6 +396,7 @@
     es: No content available yet.
 - category: data-literacy
   maturity_stage: leading
+  tags: evaluating data
   statement:
     en: >-
       Our policies for analysing and evaluating data are shared and used by our
@@ -360,6 +405,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: leading
+  tags: choosing tech
   statement:
     en: >-
       Our guides and policies for selecting appropriate tech for communicating
@@ -369,6 +415,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: mastering
+  tags: choosing tech
   statement:
     en: >-
       We have well-defined and successfully implemented best practices for
@@ -377,6 +424,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: mastering
+  tags: netiquette
   statement:
     en: >-
       We have well defined and successfully implemented best practices for
@@ -386,6 +434,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: leading
+  tags: netiquette
   statement:
     en: >-
       Our best practices and strategies for collaborating through digital
@@ -395,6 +444,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: mastering
+  tags: civic tech
   statement:
     en: >-
       We have well defined and successfully implemented best practices and
@@ -403,6 +453,7 @@
     es: No content available yet.
 - category: comms
   maturity_stage: leading
+  tags: civic tech
   statement:
     en: >-
       Our best practices and strategies for engaging in participatory
@@ -412,6 +463,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: unaware
+  tags: content integration
   statement:
     en: >-
       We don't generally create multi-format content such as data
@@ -421,6 +473,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: adhoc
+  tags: content integration
   statement:
     en: >-
       Some members of the organisation have advanced skills with combining data
@@ -430,6 +483,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: developing
+  tags: content integration
   statement:
     en: >-
       We are training our teams on modifying, refining, and integrating content
@@ -439,6 +493,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: mastering
+  tags: content integration
   statement:
     en: >-
       Our organisation has well defined and generally high understanding of, and
@@ -449,6 +504,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: leading
+  tags: content integration
   statement:
     en: >-
       Our partners and peers turn to us for advice, training and capacity
@@ -459,6 +515,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: unaware
+  tags: copyright
   statement:
     en: >-
       We do not generally spend time considering licenses, attribution, or
@@ -467,6 +524,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: adhoc
+  tags: copyright
   statement:
     en: >-
       Some members of the organisation understand copyright and licensing
@@ -476,6 +534,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: developing
+  tags: copyright
   statement:
     en: >-
       We are developing best practices and strategies on copyright and
@@ -484,6 +543,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: mastering
+  tags: copyright
   statement:
     en: >-
       Our organisation has well defined and successfully implemented best
@@ -492,6 +552,7 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: leading
+  tags: copyright
   statement:
     en: >-
       Our best practices and strategies for copyright and licensing are used by
@@ -501,12 +562,14 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: unaware
+  tags: programming
   statement:
     en: "We do not have programmers on staff, and don't code."
     fr: No content available yet.
     es: No content available yet.
 - category: content-creation
   maturity_stage: adhoc
+  tags: programming
   statement:
     en: >-
       Some members of the organisation have programming skills, but we don't
@@ -515,18 +578,21 @@
     es: No content available yet.
 - category: content-creation
   maturity_stage: developing
+  tags: programming
   statement:
     en: We are actively training our teams on programming skills.
     fr: No content available yet.
     es: No content available yet.
 - category: content-creation
   maturity_stage: mastering
+  tags: programming
   statement:
-    en: Our team members are on average competend coders.
+    en: Our team members are on average competent coders.
     fr: No content available yet.
     es: No content available yet.
 - category: content-creation
   maturity_stage: leading
+  tags: programming
   statement:
     en: >-
       Our partners and peers turn to us for advice, training, and capacity
@@ -535,51 +601,58 @@
     es: No content available yet.
 - category: safety
   maturity_stage: unaware
+  tags: cybersecurity
   statement:
-    en: We don't have organisational policies around device security.
+    en: We don't have organisational cybersecurity policies.
     fr: No content available yet.
     es: No content available yet.
 - category: safety
   maturity_stage: adhoc
+  tags: cybersecurity
   statement:
     en: >-
-      Some of our colleagues are more knowledgeable about device security, but
-      we don't have broad organisational competence.
+      Some of our colleagues are more knowledgeable about cybersecurity, but we
+      don't have broad organisational competence.
     fr: No content available yet.
     es: No content available yet.
 - category: safety
   maturity_stage: developing
+  tags: cybersecurity
   statement:
     en: >-
-      We are actively training our teams in device security, and developing
+      We are actively training our teams in cybersecurity, and developing
       security policies.
     fr: No content available yet.
     es: No content available yet.
 - category: safety
   maturity_stage: mastering
+  tags: cybersecurity
   statement:
     en: >-
       Our organisation has well defined and successfully implemented best
-      practices and policies for device security.
+      practices and policies for cybersecurity.
     fr: No content available yet.
     es: No content available yet.
 - category: safety
   maturity_stage: leading
+  tags: cybersecurity
   statement:
     en: >-
-      Our best practices and policies for device security and safety are used by
+      Our best practices and policies for cybersecurity and safety are used by
       our partners and peers; we conduct trainings and capacity building for
       others.
     fr: No content available yet.
     es: No content available yet.
 - category: safety
   maturity_stage: unaware
+  tags: personal privacy
   statement:
     en: We don't have organisational policies around personal data and privacy.
     fr: No content available yet.
     es: No content available yet.
 - category: safety
   maturity_stage: adhoc
+  tags: personal privacy
   statement:
     en: >-
       Some of our colleagues are more knowledgeable about protecting personal
@@ -589,6 +662,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: developing
+  tags: personal privacy
   statement:
     en: >-
       We are actively training our teams in protecting personal data and online
@@ -597,6 +671,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: mastering
+  tags: personal privacy
   statement:
     en: >-
       Our organisation has well defined and successfully implemented best
@@ -605,6 +680,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: leading
+  tags: personal privacy
   statement:
     en: >-
       Our best practices and policies for protecting personal data and online
@@ -614,6 +690,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: unaware
+  tags: well-being
   statement:
     en: >-
       As an organisation, we do not have best practices to protect our team's
@@ -622,6 +699,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: adhoc
+  tags: well-being
   statement:
     en: >-
       Some of our colleagues are more knowledgeable about protecting themselves
@@ -631,6 +709,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: developing
+  tags: well-being
   statement:
     en: >-
       We are developing best practices and policies on protecting our team's
@@ -640,6 +719,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: mastering
+  tags: well-being
   statement:
     en: >-
       Our organisation has well defined and successfully implemented best
@@ -650,6 +730,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: leading
+  tags: well-being
   statement:
     en: >-
       Our partners and peers turn to us for advice and support on protecting
@@ -658,6 +739,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: unaware
+  tags: environment
   statement:
     en: >-
       We don't intentionally consider the environment when engaging with
@@ -666,6 +748,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: adhoc
+  tags: environment
   statement:
     en: >-
       Some of our colleagues are more knowledgeable about the environmental
@@ -675,6 +758,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: developing
+  tags: environment
   statement:
     en: >-
       We are developing best practices and policies on choosing and using
@@ -683,6 +767,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: mastering
+  tags: environment
   statement:
     en: >-
       Our organisation has well defined and successfully implemented best
@@ -692,6 +777,7 @@
     es: No content available yet.
 - category: safety
   maturity_stage: leading
+  tags: environment
   statement:
     en: >-
       Our best practices and policies on choosing and using technologies that
@@ -701,12 +787,14 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: unaware
+  tags: tech support
   statement:
     en: We rely on external help with troubleshooting technical issues.
     fr: No content available yet.
     es: No content available yet.
 - category: problem-solving
   maturity_stage: adhoc
+  tags: tech support
   statement:
     en: >-
       Some of our colleagues have strong technical skills and can troubleshoot
@@ -716,14 +804,16 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: developing
+  tags: tech support
   statement:
     en: >-
       We are actively training our teams to become better at autonomously
-      troubleshooting and solving problem,s with our technology.
+      troubleshooting and solving problems with our technology.
     fr: No content available yet.
     es: No content available yet.
 - category: problem-solving
   maturity_stage: mastering
+  tags: tech support
   statement:
     en: >-
       Our teams are on average capable to autonomously troubleshoot and solve
@@ -733,6 +823,7 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: leading
+  tags: tech support
   statement:
     en: >-
       Our partners and peers turn to us for advice and support when
@@ -742,6 +833,7 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: unaware
+  tags: identifying tech
   statement:
     en: >-
       We rely on external support to help us identify our needs and evaluate and
@@ -750,6 +842,7 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: adhoc
+  tags: identifying tech
   statement:
     en: >-
       Some of our colleagues are capable of identifying needs and evaluating and
@@ -759,6 +852,7 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: developing
+  tags: identifying tech
   statement:
     en: >-
       We are building capacity of our teams to be on average more self-reliant
@@ -768,6 +862,7 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: mastering
+  tags: identifying tech
   statement:
     en: >-
       Our teams are on average capable to self-assess needs and evaluate and
@@ -776,6 +871,7 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: leading
+  tags: identifying tech
   statement:
     en: >-
       Our partners and peers turn to us when they need support assessing needs
@@ -784,12 +880,14 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: unaware
+  tags: innovative tech
   statement:
     en: We tend to stick to the tech tools we know.
     fr: No content available yet.
     es: No content available yet.
 - category: problem-solving
   maturity_stage: adhoc
+  tags: innovative tech
   statement:
     en: >-
       Some of our colleagues explore innovative tech tools and innovations, but
@@ -798,6 +896,7 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: developing
+  tags: innovative tech
   statement:
     en: >-
       We are developing best practices and policies on exploring innovative and
@@ -807,6 +906,7 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: mastering
+  tags: innovative tech
   statement:
     en: >-
       Our organisation has well defined and successfully implemented best
@@ -816,6 +916,7 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: leading
+  tags: innovative tech
   statement:
     en: >-
       Our partners and peers turn to us for creative and innovative solutions;
@@ -824,12 +925,14 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: unaware
+  tags: competence gaps
   statement:
     en: We are generally self-reliant when learning about new tools.
     fr: No content available yet.
     es: No content available yet.
 - category: problem-solving
   maturity_stage: adhoc
+  tags: competence gaps
   statement:
     en: >-
       Some of our colleagues engage in learning of technology for personal
@@ -838,6 +941,7 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: developing
+  tags: competence gaps
   statement:
     en: >-
       We are developing organisational resources for assessing digital
@@ -846,6 +950,7 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: mastering
+  tags: competence gaps
   statement:
     en: >-
       We have well defined and successfully implemented organisational resources
@@ -854,6 +959,7 @@
     es: No content available yet.
 - category: problem-solving
   maturity_stage: leading
+  tags: competence gaps
   statement:
     en: >-
       Our resources and best practices for assessing digital competence gaps and

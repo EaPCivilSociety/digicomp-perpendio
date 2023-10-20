@@ -17,10 +17,10 @@ const AboutPage = () => {
           __html: t('aboutParagraphTwo'),
         }}
       />
-      <h3>{t('aboutWhatHappensNext')}</h3>
+      {/* <h3>{t('aboutWhatHappensNext')}</h3>
       <p>{t('aboutParagraphThree')}</p>
       <p>{t('aboutParagraphFour')}</p>
-      <p>{t('aboutParagraphFive')}</p>
+      <p>{t('aboutParagraphFive')}</p> */}
 
       <h3>{t('aboutAcknowledgments')}</h3>
       <p
@@ -33,17 +33,21 @@ const AboutPage = () => {
           __html: t('aboutSensemakingLab'),
         }}
       />
-      <p
+      {/* <p
         dangerouslySetInnerHTML={{
           __html: t('aboutCIVICUSSupportTeam'),
         }}
-      />
+      /> */}
       <p
         dangerouslySetInnerHTML={{
           __html: t('aboutDIGNAAdvisoryGroupMembers'),
         }}
       />
-      <p>{t('aboutSpecialThanks')}</p>
+      <p
+        dangerouslySetInnerHTML={{
+          __html: t('aboutSpecialThanks'),
+        }}
+      />
       <p
         dangerouslySetInnerHTML={{
           __html: t('aboutSpecialAppreciation'),

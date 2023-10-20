@@ -34,7 +34,13 @@ const WelcomeCard = () => {
       <h1>{t('welcomeTitle')}</h1>
       {welcomeContentOpen && (
         <>
-          <p style={{ whiteSpace: 'pre-line' }}>{t('welcomeDescription')}</p>
+          {/* <p style={{ whiteSpace: 'pre-line' }}>{t('welcomeDescription')}</p> */}
+          <p
+            style={{ whiteSpace: 'pre-line' }}
+            dangerouslySetInnerHTML={{
+              __html: t('welcomeDescription'),
+            }}
+          />
           <div className="d-flex flex-column align-items-center welcome-buttons mt-4">
             <button
               type="button"

@@ -3,12 +3,8 @@
     name: Unaware
     description: >-
       The first level of the maturity model; defined in comparative sense to
-      other levels; denotes a lack of intentional or systemic approach to
-      fostering D&I standards within an organization, and absence of D&I
-      elements in the organization's management and work-processes. The
-      "unaware" maturity level could also be called "we don't know what we don't
-      know." At this level, a person or group hasn't yet started—even
-      unintentionally—on their path towards maturity in that area.
+      other levels; denotes a lack of intentional or systemic approach to growing digital competence
+      in the organisation. In other words: "We don't know what we don't know"
   fr:
     name: Inconnu
     description: >-
@@ -35,12 +31,8 @@
   en:
     name: Ad-hoc
     description: >-
-      The second level of the maturity model; defined in comparative sense to
-      other levels; denotes a practice in organizations, teams or movements
-      whereby D&I standards are introduced on the basis of immediate or
-      expressed demand (e.g. compliance with  existing regulations and laws).
-      This level could be understood as an organization or a group having a
-      nascent D&I strategy.
+      While some people in the organisation might be advanced or practical in certain
+      areas of digital competence, we don't have an organisational approach to growing digital competence maturity.
   fr:
     name: Ad-hoc
     description: >-
@@ -66,7 +58,7 @@
     description: >-
       The third level of the maturity model; defined in comparative sense to
       other levels; denotes a practice (types of behaviors/attitudes) in
-      organizations, teams or movements that have some elements of D&I practice
+      organizations, teams or movements that have some elements of digital competence
       developed or deployed with a sense of awareness and intentionality,
       although not fully integrated throughout the work processes.
   fr:
@@ -94,7 +86,7 @@
       The fourth level of the maturity model; defined in comparative sense to
       other levels; denotes a practice (types of behaviors/attitudes) in
       organizations, teams or movements that integrate a thoughtful, intentional
-      and systemic strategy around various D&I considerations.
+      and systemic strategy around various digital competence considerations.
   fr:
     name: Mastering
     description: >-
@@ -115,18 +107,8 @@
   en:
     name: Leading
     description: >-
-      The fifth level of the maturity model; defined in comparative sense to
-      other levels; denotes a practice (types of behaviors/attitudes) in
-      organizations, teams or movements that integrate a thoughtful, intentional
-      and systemic strategy around various D&I considerations. The
-      organizations, teams or movements in this level of maturity likely
-      seriously approach and consider investments in D&I as one of the
-      organizational priorities and can also serve as multipliers in promoting
-      an advanced D&I practice among their stakeholders and in their
-      communities. The defining factor of the "leading" category is that other
-      organisations recognize this organization as an example to follow, so
-      there is also an element of recognition and intentional aim to be a role
-      model to others.
+      Organisations who define themselves as leading in a certain fields signify
+      that their peers and partners look to them for guidance and leadership.
   fr:
     name: Chef de file
     description: >-

@@ -15,6 +15,13 @@ const HowToUsePage = () => {
   return (
     <div className="card page-card">
       <h3>{t('howToUsePageTitle')}</h3>
+      <p>
+        <i>
+          FYI the screengrabs below showcase the Diversity and Inclusion version
+          of the tool. The features are all the same, but your version might
+          look slightly different.
+        </i>
+      </p>
       <img src={HowToOne} alt="" className="img-fluid howto-image" />
       <p
         dangerouslySetInnerHTML={{
@@ -22,11 +29,31 @@ const HowToUsePage = () => {
         }}
       />
       <ul className="styled-list">
-        <li>{t('howToUseListA1')}</li>
-        <li>{t('howToUseListA2')}</li>
-        <li>{t('howToUseListA3')}</li>
-        <li>{t('howToUseListA4')}</li>
-        <li>{t('howToUseListA5')}</li>
+        <li
+          dangerouslySetInnerHTML={{
+            __html: t('howToUseListA1'),
+          }}
+        />
+        <li
+          dangerouslySetInnerHTML={{
+            __html: t('howToUseListA2'),
+          }}
+        />
+        <li
+          dangerouslySetInnerHTML={{
+            __html: t('howToUseListA3'),
+          }}
+        />
+        <li
+          dangerouslySetInnerHTML={{
+            __html: t('howToUseListA4'),
+          }}
+        />
+        <li
+          dangerouslySetInnerHTML={{
+            __html: t('howToUseListA5'),
+          }}
+        />
       </ul>
 
       <h4>{t('howToUseAssigningValuesToStatements')}</h4>

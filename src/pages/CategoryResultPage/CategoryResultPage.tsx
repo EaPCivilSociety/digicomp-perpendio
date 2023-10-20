@@ -5,7 +5,7 @@ import _ from 'lodash';
 import { AnimatePresence, AnimateSharedLayout, motion } from 'framer-motion';
 
 import CategoryAnswered from 'components/Categories/CategoryAnswered';
-import Filters from 'components/Categories/Filters';
+// import Filters from 'components/Categories/Filters';
 import GoalButton from 'components/Goals/GoalButton';
 import GoalButtonToggle from 'components/Goals/GoalButtonToggle';
 import StatementCmp from 'components/Statements/Statement';
@@ -32,7 +32,11 @@ const CategoryResultPage = () => {
   const results = useSelector(getResultsByCategory(categoryId));
   const { t } = useTranslations();
 
-  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  // remember to remove the bottom version and re-add the commented out version
+  // when adding back the tag selection
+  // const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const [selectedTags] = useState<string[]>([]);
+
   const [maturityStage, setMaturityStage] = useState<string | null>(null);
   const [resultsVisible, setResultsVisible] = useState<boolean>(false);
 
@@ -97,10 +101,10 @@ const CategoryResultPage = () => {
         <div />
       </header>
 
-      <Filters
+      {/* <Filters
         statements={[...answeredStatements, ...unansweredStatements]}
         onChange={(tags) => setSelectedTags(tags)}
-      />
+      /> */}
 
       <div className="goals">
         <div className="goals-left">

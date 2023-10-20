@@ -177,15 +177,25 @@
       li {
         display: flex;
         align-items: center;
-        font-size: 12px;
+        border: 1px #cccccc solid;
+        border-radius: 5px;
+        padding: 4px;
+        text-transform: capitalize;
+        color: #888888;
+        & .goal-button-tooltip {
+          margin-left: 0;
+          cursor: pointer;
+        }
+        & .goal-button-tooltip-content {
+          text-transform: none;
+        }
 
         @media (min-width: 768px) {
-          font-size: 14px;
+          font-size: 12px;
         }
 
         &::after {
           content: '/';
-          font-size: 24px;
           margin: 0 8px;
           color: #cccccc;
         }

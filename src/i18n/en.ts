@@ -1,7 +1,7 @@
 export const en = {
   welcomeTitle: 'Digital Competence Diagnostic tool',
   welcomeDescription:
-    "This tool assists civil society and movements with assessing their digital competence. We believe in peoples' best intentions to reflect on themselves, their culture and practices, engaging in difficult dialogues when necessary. \n\n More text",
+    'This tool assists civil society with assessing their digital competence. It is based on the <a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC128415">EU Digital Competence Framework for Citizens</a>, and adapted to the needs of organisations. This diagnostic tool was built by the team and coaches of the Digital Competence course organised by the <a href="https://eapcivilsociety.eu/">Eastern Partnership for Civil Society</a>.',
   welcomeStartSelfAssessment: 'Start Self-Assessment',
   welcomeOr: 'or',
   welcomePickUpWhereYouLeft: 'Pick up where you left off.',
@@ -14,7 +14,7 @@ export const en = {
     'The self-assessment is divided into several key categories. We suggest you start with any category of your preference, as the order in which you go through different categories does not impact the overall results.',
   categoriesDescriptionSecond:
     'The more statements you go through, the more complete and informed results you will get.',
-  categoriesStateOfDiversity: 'State of Our Diversity',
+  categoriesStateOfDiversity: 'Digital Competence',
   categoriesSave: 'Save',
   categoriesExport: 'Export PDF',
   categoryInProgress: 'In progress',
@@ -30,27 +30,25 @@ export const en = {
   statementShowResults: 'Show results',
   aboutSelfDiagnosticTool: 'About the Self-Diagnostic Tool',
   aboutParagraphOne:
-    'There has been very little literature and case studies on the unique set up of civil society organisations to use as practical examples for the sector. Over the past year, <strong>CIVICUS tested the implementation of diverse and inclusive practices,and its impact on overall organisational health, through a one year pilot programme with different civil society actors</strong>. 8 CIVICUS members were selected from 400 applications with regional and contextual diversity. Once the pilot programme participants were selected CIVICUS matched each organization with an external consultant to undergo a diversity and inclusion audit. The audit was designed to be a stock taking exercise: looking what the organisation already has in terms of inclusive policies and practices and what glaring gaps need to be addressed. Each organisation received a comprehensive report identifying they were already doing well and recommendations on what they can improve with suggestions on how they can approach the gaps.',
+    'Assessing digital competence from an organisational perspective is a challenging process. The EU Digital Competence Framework for Citizens is a comprehensive and logical overview of what digital competence means, and it meaingfully categorizes skills, competencies, and attitudes to help individuals assess and grow their competence. However, looking at digital competence from the perspective of a team, an organisation, is a different dimension of competence, for which we felt that the original framework deserved a focused tool.',
   aboutParagraphTwo:
-    '<strong>This report ended up being a huge driver of change for the organisations as many leadership teams had no idea that some of these problems existed.</strong> Even if they were somewhat aware of the issues, there was little awareness of how it was affecting their employees’ well being and ability to do their job safely. After one year each organisation had taken great strides in implementing short term wins and long term structures. Many staff were able to see changes and co-created the desired change. We hope with this tool, you will be able to find your D&amp;I driver of change and become inspired for positive change!',
+    'This self-diagnostic tool extends the EU digital competence framework into the territory of organisational maturity: what does it mean for an organisation to be digitally competent? the EaP team, together with coaches for their Digital Competence course, translated the framework into organisational maturity areas, so that teams and orgs can reflect on their digital competence from a space of policies, best practices, capacity building, and peer/partner support. The tool is designed with Civil Society in mind, specifically groups from EaP countries (Armenia, Azerbaijan, Belarus, Georgia, Moldova and Ukraine). However, it can be a helpful resource for any team, company, or organisation intent on becoming more intentional about their digital competence progress.',
   aboutWhatHappensNext: 'What happens next?',
-  aboutParagraphThree:
-    'Now that you have received your self-assessment results, it is time for a reminder: the process of developing, enhancing or consolidating your commitment to D&amp;I standards and principles is one that requires long-term commitment, and regular, recurrent self-examination and self-reflection.',
+  aboutParagraphThree: '',
   aboutParagraphFour:
-    'If you are surprised with the results - perhaps it would be an interesting and useful exercise to ask a colleague to fill out the self-assessment tool, so that you can cross-reference and compare your respective results, identifying in the process the causes behind eventual discrepancies. If you are pleased with the results, it might be an excellent opportunity to see in what ways some of your current practices could be further codified, standardized and institutionalized across policies and organisational key processes and practices. If you are disheartened - worry not. By the mere act of engaging in this self-assessment, you have already embarked on the journey of advocating for D&amp;I within your organisation - and perhaps sharing the results with colleagues is a good start in finding ways to address some of the issues you have identified.',
-  aboutParagraphFive:
-    'Wherever on the maturity model you find yourself at this point - we hope that you will continue working on improving D&amp;I standards within your organisation, holding yourself and colleagues accountable to these standards and values. Thank you for filling out the self-assessment tool, and for allowing us to assist you in your D&amp;I efforts.',
+    'If you are surprised with the results - perhaps it would be an interesting and useful exercise to ask a colleague to fill out the self-assessment tool, so that you can cross-reference and compare your respective results, identifying in the process the causes behind eventual discrepancies. If you are pleased with the results, it might be an excellent opportunity to see in what ways some of your current practices could be further codified, standardized and institutionalized across policies and organisational key processes and practices.',
+  aboutParagraphFive: '',
   aboutAcknowledgments: 'Acknowledgments',
   aboutCreativeConsultancyTeams:
-    '<strong>Creative Consultancy Teams: </strong> Europe &amp; Southeast: Mario Mažić, Maja Nenadovic, Tin Geber',
+    '<strong>Eastern Partnership for Civil Society:</strong> Monica Bucurenciu, Simon Forrester',
   aboutSensemakingLab:
-    '<strong>Sensemaking Lab: </strong> Jayati Doshi and Ovee Karwa',
+    '<strong>Tool adaptation and lead coach: </strong> Tin Geber - <a href="https://tin.fyi">tin.fyi</a>',
   aboutCIVICUSSupportTeam:
     '<strong>CIVICUS Support Team:</strong> Suhani Bhushan, Oriana Castillo, Emaan Ali',
   aboutDIGNAAdvisoryGroupMembers:
-    '<strong>DIGNA Advisory Group Members:</strong> Juliana Catania (Argentina), Karen Phillip (Barbados), Dumiso Gatsha (Botswana), Ana Addobbati (Brazil), Camila Silva (Brazil), Carey Rutherford (Canada), Karin Watson (Chile), Islam El-Ghazouly (Egypt), Kalisito Biaukula (Fiji), Abdul Mufeez Shaheed (Fiji), Vandita Morarka (India), Chepkwemoi Kimtai (Kenya), Saro Imra (Pakistan), Justin Francis Bionat (Philippines), Belen Giaquinta (Argentina/UK), Lily Rosengard (UK), Maggie Musonda (Zambia), Bhekumusa Moyo (Zambia)',
+    '<strong>EaP DC coaches:</strong>Denys Andrushchenko (Ukraine), Hovhannes Aghajanyan (Armenia), Nino Gamisonia (Georgia), Roman Gluck (Moldova), Saba Khergiani (Georgia), Nensi Mkrtchyan (Armenia)',
   aboutSpecialThanks:
-    'Special thanks to: Thapelo Masiwa, Kgalalelo Gaebee, Silvia Puerto Aboy, Elisa Novoa, Hannah Wheatley, Anna Avagyan, Pam Gounder, Jack Cornforth, Merle Rutz, Amy Taylor, Deborah Walter, Jonathan Diab, Carolina Vega',
+    'The original version of this diagnostic tool was developed by CIVICUS as part of their Diversity and Inclusion program. <a href="https://diversitytool.civicus.org/">Visit the diversiy tool DIGNA</a> to find more about the tool and its creators.',
   aboutSpecialAppreciation:
     'We also wish to extend special appreciation to <a href="https://lindaraftree.com/">Linda Raftree</a>, whose work on the <a href="https://lindaraftree.com/2019/10/17/a-responsible-data-maturity-model-for-non-profits/">Responsible Data Maturity Model</a> guided our reasoning both in structure and in intent.',
   filtersShowFiltersByArea: 'Show Filters by Area',
@@ -71,7 +69,7 @@ export const en = {
   statementsProgress: 'Progress:',
   statementsRequired: 'Required:',
   statementsAssessment:
-    'Assessment is more precise with every question you answer.',
+    'The assessment is more precise with every question you answer.',
   statementsHowMuchDoesThis: 'How much does this statement resonate?',
   statementsNotAtAll: 'Not at all',
   statementsSomewhat: 'Somewhat',
@@ -79,7 +77,7 @@ export const en = {
   statementsDoesNotApply: 'Doesn’t apply',
   resetModalRestartAssessment: 'Restart Assessment',
   resetModalTitle:
-    'Are you sure you want to delete your progress and restart assesment?',
+    'Are you sure you want to delete your progress and restart the assessment?',
   resetModalSubtitle:
     'If you think current progress might be useful, consider saving it before restarting the assessment.',
   resetModalCancel: 'No, take me back',
@@ -98,12 +96,13 @@ export const en = {
   pdfIntroduction: 'Introduction',
   pdfCategoriesAndStatements: 'Categories and Statements',
   pdfAboutCreativeConsultancyTeams:
-    '<strong>Creative Consultancy Teams:</strong> Europe & Southeast: Mario Mažić, Maja Nenadovic, Tin Geber',
-  pdfAboutSensemakingLab: 'Sensemaking Lab: Jayati Doshi and Ovee Karwa',
+    '<strong>Eastern Partnership for Civil Society:</strong> Monica Bucurenciu, Simon Forrester',
+  pdfAboutSensemakingLab:
+    '<strong>Tool adaptation and lead coach: </strong> Tin Geber - <a href="https://tin.fyi">tin.fyi</a>',
   pdfAboutCIVICUSSupportTeam:
-    '<strong>CIVICUS Support Team:</strong> Suhani Bhushan, Oriana Castillo, Emaan Ali',
+    'The original version of this diagnostic tool was developed by CIVICUS as part of their Diversity and Inclusion program. <a href="https://diversitytool.civicus.org/">Visit the diversiy tool DIGNA</a> to find more about the tool and its creators.',
   pdfAboutDIGNAAdvisoryGroupMembers:
-    '<strong>DIGNA Advisory Group Members:</strong> Juliana Catania (Argentina), Karen Phillip (Barbados), Dumiso Gatsha (Botswana), Ana Addobbati (Brazil), Camila Silva (Brazil), Carey Rutherford (Canada), Karin Watson (Chile), Islam El-Ghazouly (Egypt), Kalisito Biaukula (Fiji), Abdul Mufeez Shaheed (Fiji), Vandita Morarka (India), Chepkwemoi Kimtai (Kenya), Saro Imra (Pakistan), Justin Francis Bionat (Philippines), Belen Giaquinta (Argentina/UK), Lily Rosengard (UK), Maggie Musonda (Zambia), Bhekumusa Moyo (Zambia)',
+    '<strong>EaP DC coaches:</strong>Denys Andrushchenko (Ukraine), Hovhannes Aghajanyan (Armenia), Nino Gamisonia (Georgia), Roman Gluck (Moldova), Saba Khergiani (Georgia), Nensi Mkrtchyan (Armenia)',
   pdfAboutSpecialAppreciation1:
     'We also wish to extend special appreciation to',
   pdfAboutSpecialAppreciation2: ', whose work on the',
@@ -111,18 +110,23 @@ export const en = {
   pdfAboutSpecialAppreciation3:
     'guided our reasoning both in structure and in intent.',
   introTutorial:
-    'As you select a category, you will be offered a series of statements. Try to evaluate the statements without overthinking, selecting the ones that best reflect your lived reality in your organisation. With every marked statement, the self-assessment tool receives information that helps determine the state of D&I standards and practices in your workplace.',
+    'As you select a category, you will be offered a series of statements. Try to evaluate the statements without overthinking, selecting the ones that best reflect your lived reality in your organisation.',
   resultsUnansweredStatements: 'Unanswered statements',
   resultsIn: 'in',
   resultsFinishedStatements: 'Finished statements',
   howToUsePageTitle: 'How to use',
   howToUseIntro:
-    'This is a self-evaluation webapp based on the concept of the maturity model, inspired by Linda Raftrees work on the <a href="https://lindaraftree.com/2019/10/17/a-responsible-data-maturity-model-for-non-profits/">Responsible Data Maturity Model</a>. The maturity model is self-reflective: instead of asking questions, it presents statements that describe a certain level of organisational maturity with regards to a category, like program development or infrastructure. Through a series of collaborative design rounds with audience representatives, the statements have been crafted and assigned to a maturity level:',
-  howToUseListA1: 'Unaware',
-  howToUseListA2: 'Ad-Hoc',
-  howToUseListA3: 'Developing',
-  howToUseListA4: 'Mastering',
-  howToUseListA5: 'Leading',
+    'This is a self-evaluation tool based on the concept of the maturity model, inspired by Linda Raftrees work on the <a href="https://lindaraftree.com/2019/10/17/a-responsible-data-maturity-model-for-non-profits/">Responsible Data Maturity Model</a>. The maturity model is self-reflective: instead of asking questions, it presents statements that describe a certain level of organisational maturity with regards to a category. The statements have been crafted and assigned to a maturity level:',
+  howToUseListA1:
+    '<strong>Unaware: </strong> <i>We don’t know what we don’t know</i>',
+  howToUseListA2:
+    '<strong>Ad-Hoc:</strong> <i>Some team members are skilled, but we do not have org-wide policies or best practices</i>',
+  howToUseListA3:
+    '<strong>Developing: </strong> <i>We started creating structures, policies, and best practices</i>',
+  howToUseListA4:
+    '<strong>Mastering: </strong> <i>Our policies and best practices are well designed and successfully implemented</i>',
+  howToUseListA5:
+    '<strong>Leading: </strong> <i>Peers and partners recognize us as leaders in the space, and come to us for support</i>',
   howToUseAssigningValuesToStatements: 'Assigning values to statements',
   howToUseParagraph1:
     'For each statement, you are asked to express how much that statement resonates with your organisation’s experience:',
@@ -131,16 +135,15 @@ export const en = {
   howToUseListB3: 'Very Much',
   howToUseListB4: 'Doesn’t apply',
   howToUseParagraph2:
-    'There are more than 200 statements, so the work of going through all of them is not easy. We did our best to simplify it: you can either choose to go through a random list of statements pertaining to a category, or you can drill down into a category and see all the statements pertaining to a maturity level.',
+    'There are quite a few statements, so the work of going through all of them is not easy. We did our best to simplify it: you can either choose to go through a random list of statements pertaining to a category, or you can drill down into a category and see all the statements pertaining to a maturity level.',
   howToUseParagraph3:
-    'For best results, we recommend going through the evaluation tool with the support of a Diversity & Inclusion specialist, who will be able to guide you through the more complex bits and give you insight.',
+    'For best results, we recommend going through the evaluation tool with the support of your team or a Digital Competence specialist, who will be able to guide you through the more complex bits and give you insight.',
   howToUseAnalysingYourAssessment: 'Analysing your assessment',
   howToUseParagraph4:
     'The core feature of the website is a table where rows represent maturity categories, and columns represent maturity levels. On this overview, you can:',
   howToUseSeeASnapshot:
     'See a snapshot of your current progress and deep dive into single categories:',
-  howToUseFilterTheResultsByDiveristy:
-    'Filter the results by diversity thematic areas:',
+  howToUseFilterTheResultsByDiveristy: 'Filter the results by thematic areas:',
   howToUseAssignMaturityGoals: 'Assign maturity goals for each category:',
   howToUseSaveYourProgress: 'Save your progress:',
   howToUseExportToPDF: 'Export your entire assessment as a PDF:',

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { resources, categories } from 'data';
+import { resources } from 'data';
 import { Category } from 'store/categories/types';
 
 const ResourcesPage = () => {
@@ -9,10 +9,7 @@ const ResourcesPage = () => {
     'Tools and resource libraries',
   ];
 
-  const printCategories = [
-    'General Resources',
-    ...categories.map((c: Category) => c.en.name),
-  ];
+  const printCategories = [...resources.map((c: Category) => c.category)];
 
   const renderAuthorYear = (author: string, year: string) => {
     if (!!author && !!year) {
@@ -34,7 +31,7 @@ const ResourcesPage = () => {
     }
 
     return (
-      <div>
+      <div key={type}>
         <h3>{type}</h3>
 
         {ctResources.map((ctr: any) => (

@@ -104,6 +104,12 @@ p {
   font-size: 16px;
 }
 
+a {
+  color: #9c3bc6;
+  &:hover {
+    color: #5b2274;
+  }
+}
 // Buttons
 .btn {
   border: none;

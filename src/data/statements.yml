@@ -79,7 +79,7 @@
   statement:
     en: >-
       When it comes to online sharing, we don't pay particular attention to
-      properly attribute content.
+      properly attributing content.
     fr: No content available yet.
     es: No content available yet.
 - category: comms
@@ -391,7 +391,8 @@
   statement:
     en: >-
       All staff and leadership have had data literacy training, and we have
-      well-defined policies and best practices in evaluating and analysing data.
+      well-defined policies and best practices for evaluating and analysing
+      data.
     fr: No content available yet.
     es: No content available yet.
 - category: data-literacy
@@ -865,8 +866,8 @@
   tags: identifying tech
   statement:
     en: >-
-      Our teams are on average capable of self-assessing needs
-      and evaluating and selecting appropriate tech solutions.
+      Our teams are on average capable of self-assessing needs, and evaluating
+      and selecting appropriate tech solutions.
     fr: No content available yet.
     es: No content available yet.
 - category: problem-solving

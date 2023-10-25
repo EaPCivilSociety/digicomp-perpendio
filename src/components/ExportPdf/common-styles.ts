@@ -1,11 +1,11 @@
 import { StyleSheet, Font } from '@react-pdf/renderer';
-import { CRIMSON, LATO } from './const';
+import { QUICKSAND, LATO } from './const';
 
 Font.register({
-  family: CRIMSON,
+  family: QUICKSAND,
   fonts: [
     {
-      src: `${process.env.PUBLIC_URL}/fonts/CrimsonText-Regular.ttf`,
+      src: `${process.env.PUBLIC_URL}/fonts/Quicksand-Regular.ttf`,
       fontStyle: 'normal',
       fontWeight: 400,
     },
@@ -36,12 +36,12 @@ Font.register({
 const commonStyles = StyleSheet.create({
   h1: {
     fontSize: 32,
-    fontFamily: CRIMSON,
+    fontFamily: QUICKSAND,
   },
   h2: {
     fontSize: 24,
     marginBottom: 16,
-    fontFamily: CRIMSON,
+    fontFamily: QUICKSAND,
   },
   h3: {
     fontSize: 14,

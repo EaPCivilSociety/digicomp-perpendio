@@ -1,3 +1,3 @@
-export const CRIMSON = 'Crimson';
+export const QUICKSAND = 'Quicksand';
 
 export const LATO = 'Lato';

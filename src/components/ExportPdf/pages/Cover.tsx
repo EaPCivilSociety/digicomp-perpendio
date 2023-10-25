@@ -17,12 +17,14 @@ const styles = StyleSheet.create({
     width: 140,
   },
   content: {
-    width: 300,
+    width: 400,
     marginHorizontal: 'auto',
     textAlign: 'center',
     alignItems: 'flex-start',
   },
   title: {
+    fontSize: 32,
+    fontWeight: 'bold',
     marginBottom: 49,
   },
   sectionTitle: {
@@ -75,7 +77,7 @@ export default function Cover({
           </>
         ) : null}
         <Text style={styles.paragraph}>
-          {format(new Date(), 'dd--MM--yyyy')}
+          {format(new Date(), 'd MMMM yyyy')}
         </Text>
       </View>
       <View style={styles.codeWrapper}>

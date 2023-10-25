@@ -2,13 +2,13 @@ import { Image, Page, StyleSheet, Text, View } from '@react-pdf/renderer';
 import { maturityLevels } from 'data';
 import { IconTarget } from 'images/pdf';
 import _ from 'lodash';
-import React, { Fragment } from 'react';
+import React from 'react';
 import { CategoryState } from 'store/categories';
 import { Language } from 'store/languages';
 import { Goal, Result } from 'store/results';
 import { Answer, Statement } from 'store/statements';
 import commonStyles from '../common-styles';
-import { CRIMSON } from '../const';
+import { QUICKSAND } from '../const';
 
 const styles = StyleSheet.create({
   categoryHeading: {
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   },
 
   statementText: {
-    fontFamily: CRIMSON,
+    fontFamily: QUICKSAND,
     marginBottom: 7,
     color: '#333',
   },
@@ -255,20 +255,9 @@ export default function CategoriesAndStatements({
                               </View>
                               {statement.tags?.length > 0 ? (
                                 <View style={styles.statementTags}>
-                                  {statement.tags.map((tag, index) => (
-                                    <Fragment key={tag}>
-                                      {index > 0 ? (
-                                        <Text
-                                          style={styles.statementTagSeparator}
-                                        >
-                                          /
-                                        </Text>
-                                      ) : null}
-                                      <Text style={commonStyles.small}>
-                                        {tag}
-                                      </Text>
-                                    </Fragment>
-                                  ))}
+                                  <Text style={commonStyles.small}>
+                                    {statement.tags}
+                                  </Text>
                                 </View>
                               ) : null}
                             </View>

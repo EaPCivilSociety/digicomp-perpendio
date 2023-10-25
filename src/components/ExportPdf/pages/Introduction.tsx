@@ -26,15 +26,15 @@ export default function Introduction({ t }: IntroductionProps) {
 
       <View wrap={false}>
         <Text style={commonStyles.h2}>{t('pdfIntroduction')}</Text>
-        <Text style={commonStyles.mb1}>
+        {/* <Text style={commonStyles.mb1}>
           {sanitizeText(t('aboutParagraphThree'))}
-        </Text>
+        </Text> */}
         <Text style={commonStyles.mb1}>
           {sanitizeText(t('aboutParagraphFour'))}
         </Text>
-        <Text style={commonStyles.mb1}>
+        {/* <Text style={commonStyles.mb1}>
           {sanitizeText(t('aboutParagraphFive'))}
-        </Text>
+        </Text> */}
       </View>
 
       <View wrap={false}>
@@ -47,9 +47,9 @@ export default function Introduction({ t }: IntroductionProps) {
         <Text style={commonStyles.mb1}>
           {sanitizeText(t('aboutSensemakingLab'))}
         </Text>
-        <Text style={commonStyles.mb1}>
+        {/* <Text style={commonStyles.mb1}>
           {sanitizeText(t('aboutCIVICUSSupportTeam'))}
-        </Text>
+        </Text> */}
         <Text style={commonStyles.mb1}>
           {sanitizeText(t('aboutDIGNAAdvisoryGroupMembers'))}
         </Text>

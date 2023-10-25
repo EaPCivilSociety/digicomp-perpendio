@@ -89,7 +89,7 @@ export const en = {
   exportModalNameOrganization: 'Name of organisation',
   exportModalLoading: 'Generating...',
   exportModalDownload: 'Download PDF',
-  pdfTitle: 'Diversity and Inclusion Self-assessment',
+  pdfTitle: 'Digital Competence Self-assessment',
   pdfCompiledBy: 'Compiled by',
   pdfOnBehalfOf: 'On behalf of',
   pdfAssessmentCode: 'Assessment code',

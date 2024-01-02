@@ -1,15 +1,13 @@
 import React from 'react';
 
-import { resources } from 'data';
+import { resources, categories } from 'data';
 import { Category } from 'store/categories/types';
 
 const ResourcesPage = () => {
-  const types = [
-    'Articles, talks & case studies',
-    'Tools and resource libraries',
+  const printCategories = [
+    'General Resources',
+    ...categories.map((c: Category) => c.en.name),
   ];
-
-  const printCategories = [...resources.map((c: Category) => c.category)];
 
   const renderAuthorYear = (author: string, year: string) => {
     if (!!author && !!year) {
@@ -21,42 +19,26 @@ const ResourcesPage = () => {
     }
   };
 
-  const renderCategoryType = (category: string, type: string) => {
-    const ctResources = resources.filter(
-      (r: any) => r.category === category && r.type === type
-    );
-
-    if (ctResources.length === 0) {
-      return null;
-    }
-
-    return (
-      <div key={type}>
-        <h3>{type}</h3>
-
-        {ctResources.map((ctr: any) => (
-          <p key={ctr.title}>
-            <strong>{ctr.title}</strong>
-            {ctr.publication ? ', ' + ctr.publication : ''}{' '}
-            {renderAuthorYear(ctr.author, ctr.year)}
-            <br />
-            <small>
-              <a href={ctr.url}>{ctr.url}</a>
-            </small>
-          </p>
-        ))}
-      </div>
-    );
-  };
-
   return (
     <div className="card page-card">
       <h1>Resources</h1>
 
       {printCategories.map((c) => (
-        <div key={c}>
-          <h2>{c}</h2>
-          {types.map((t) => renderCategoryType(c, t))}
+        <div className="resources-section" key={c}>
+          <h3 className="resources-h3">{c}</h3>
+          {resources
+            .filter((r: any) => r.category === c)
+            .map((ctr: any) => (
+              <p key={ctr.title}>
+                <strong>{ctr.title}</strong>
+                {ctr.publication ? ', ' + ctr.publication : ''}{' '}
+                {renderAuthorYear(ctr.author, ctr.year)}
+                <br />
+                <small>
+                  <a href={ctr.url}>{ctr.url}</a>
+                </small>
+              </p>
+            ))}
           <br />
         </div>
       ))}
